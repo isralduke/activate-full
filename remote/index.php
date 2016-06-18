@@ -10,22 +10,22 @@
 	<meta name="msapplication-tap-highlight" content="no">
 	<?php include('partials/faves.html'); ?>
 	<link rel="canonical" href="http://www.activateconf.com/">
-		<!-- fb OG markup -->
+	<!-- fb OG markup -->
 	<meta property="og:url" content="http://www.activateconf.com/" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Home" />
-	<meta property="og:description" content="" />
+	<meta property="og:description" content="description goes here" />
 	<meta property="og:image" content="http://www.activateconf.com/image.png" />
-
-
 
 	<!-- twitter card markup -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@activ8conf">
 	<meta name="twitter:creator" content="@activ8conf">
 	<meta name="twitter:title" content="Home">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:description" content="description goes here">
 	<meta name="twitter:image" content="http://www.activateconf.com/">
+	<meta name="author" content="Lynsey Gwin Jordan, Quinton Jason Jr, and Isral C. Duke" />
+	<link type="text/plain" rel="author" href="/humans.txt" />
 </head>
 <body>
 	<!-- Add your site or app content here -->
@@ -40,6 +40,5 @@
 		ga('create', 'UA-XXXXX-X', 'auto');
 		ga('send', 'pageview');
 	</script>
-	<!-- Built with love using Web Starter Kit -->
 </body>
 </html>
