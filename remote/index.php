@@ -29,7 +29,33 @@
 </head>
 <body>
 	<!-- Add your site or app content here -->
-	HI!
+	<section id="rocket" class="section rocket">
+		<img src="/assets/img/rocket.svg" alt="activate rocket is ready to launch you">
+	</section>
+	<section id="about-activate" class="section about">
+		<?php include('contents/section-about.html'); ?>
+	</section>
+	<section id="speakers" class="section speakers">
+		<?php include('contents/section-speaker.html'); ?>
+	</section>
+	<section class="section panel">
+		<?php include('content/section-panel.html'); ?>
+	</section>
+	<nav class="nav">
+		
+	</nav>
+	<section class="section venue">
+		
+	</section>
+	<section class="section brick-red">
+		
+	</section>
+	<section class="section sponsors">
+		
+	</section>
+	<footer class="footer ">
+		
+	</footer>
 	<script src="js/activations.min.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 	<script>
