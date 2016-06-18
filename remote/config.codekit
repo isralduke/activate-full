@@ -288,29 +288,38 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/contents\/section-about.html": {
+	"\/contents\/article-about.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/section-about.html",
+		"inputAbbreviatedPath": "\/contents\/article-about.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/contents\/section-panel.html": {
+	"\/contents\/article-panel.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/section-panel.html",
+		"inputAbbreviatedPath": "\/contents\/article-panel.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/contents\/section-speakers.html": {
+	"\/contents\/article-speakers.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/section-speakers.html",
+		"inputAbbreviatedPath": "\/contents\/article-speakers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contents\/article-venue.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/article-venue.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

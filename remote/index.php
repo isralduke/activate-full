@@ -28,31 +28,30 @@
 	<link type="text/plain" rel="author" href="/humans.txt" />
 </head>
 <body>
-	<!-- Add your site or app content here -->
-	<section id="rocket" class="section rocket">
+	<article id="rocket" class="article rocket">
 		<img src="/assets/img/rocket.svg" alt="activate rocket is ready to launch you">
-	</section>
-	<section id="about-activate" class="section about">
-		<?php include('contents/section-about.html'); ?>
-	</section>
-	<section id="speakers" class="section speakers">
-		<?php include('contents/section-speaker.html'); ?>
-	</section>
-	<section class="section panel">
-		<?php include('content/section-panel.html'); ?>
-	</section>
+	</article>
+	<article id="about-activate" class="article about">
+		<?php include('contents/article-about.html'); ?>
+	</article>
+	<article id="speakers" class="article speakers">
+		<?php include('contents/article-speaker.html'); ?>
+	</article>
+	<article class="article panel">
+		<?php include('content/article-panel.html'); ?>
+	</article>
 	<nav class="nav">
 		
 	</nav>
-	<section class="section venue">
+	<article class="article venue">
 		
-	</section>
-	<section class="section brick-red">
+	</article>
+	<article class="article brick-red">
 		
-	</section>
-	<section class="section sponsors">
+	</article>
+	<article class="article sponsors">
 		
-	</section>
+	</article>
 	<footer class="footer ">
 		
 	</footer>
