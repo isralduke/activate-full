@@ -1,11 +1,23 @@
 // --------------------------------
 // colors
 
-$blue: #073c5e;
-$bluelight: lighten($blue, 20%);
-$red: #dd232b;
-$reddark: darken($red, 50%);
-$yellow: #efc913;
-$rednormal: #b82134; 
+$indigo: #073c5e;
+$denim: #073c5e;
+$powder: #073c5e;
+$turquoise: #073c5e;
+$khaki: #fef4d3;
+$yellow: #073c5e;
+$orange: #073c5e;
+$red: #073c5e;
 $black: #000000;
 $white: #ffffff;
+
+$fontfam: 'Panton', 'Roboto', 'Droid Sans', 'Helvetica', 'Verdana', 'Arial', sans-serif;
+
+$unit: 20px;
+
+// type styles
+
+.text-center {
+	text-align: center;
+}

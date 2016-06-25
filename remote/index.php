@@ -26,34 +26,241 @@
 	<meta name="twitter:image" content="http://www.activateconf.com/">
 	<meta name="author" content="Lynsey Gwin Jordan, Quinton Jason Jr, and Isral C. Duke" />
 	<link type="text/plain" rel="author" href="/humans.txt" />
+	<link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 	<article id="rocket" class="article rocket">
-		<img src="/assets/img/rocket.svg" alt="activate rocket is ready to launch you">
+		<img class="logo logo-rocket" src="/assets/img/rocket.svg" alt="activate rocket is ready to launch you">
 	</article>
 	<article id="about-activate" class="article about">
-		<?php include('contents/article-about.html'); ?>
+		<!-- copy this for partial -->
+		<section>
+			<h2>about activate</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. </p>
+
+			<p>Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+		</section>
+		<section>
+			<h2>stay updated</h2>
+			<div class="form-wrap">
+				<form action="">
+					<input type="email">
+					<button class="btn btn-text-only" type="submit">subscribe</button>
+				</form>
+			</div>
+		<section>
+			<div>
+				<h2>date</h2>
+				<p>day, month date, year<br /> time &ndash; time PM</p>
+				<button class="btn btn-has-icon">add calendar event</button>
+			</div>
+			<div>
+				<h2>venue</h2>
+				<p>venue name <br /> address1 <br /> city, state, zip</p>
+				<button class="btn btn-has-icon">more about venue</button>
+			</div>
+			<div>
+				<a href="fb"><img src="" alt="fb"></a>
+				<a href="tw"><img src="" alt="tw"></a>
+				<a href="ig"><img src="" alt="ig"></a>
+			</div>
+		</section>
+		<!-- end partial -->
 	</article>
 	<article id="speakers" class="article speakers">
-		<?php include('contents/article-speaker.html'); ?>
+		<!-- copy this for partial -->
+		<section>
+			<h2>speakers</h2>
+		</section>
+		<section class="speaker-bio">
+			<img src="" alt="" class="speaker-photo">
+			<div class="speaker-bio">
+				<p class="speaker-name">first last</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+				<h3>presentation title</h3>
+				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+			</div>
+		</section>
+		<section class="speaker-bio">
+			<img src="" alt="" class="speaker-photo">
+			<div class="speaker-bio">
+				<p class="speaker-name">first last</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+				<h3>presentation title</h3>
+				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+			</div>
+		</section>
+		<section class="speaker-bio">
+			<img src="" alt="" class="speaker-photo">
+			<div class="speaker-bio">
+				<p class="speaker-name">first last</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+				<h3>presentation title</h3>
+				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+			</div>
+		</section>
+		<section class="speaker-bio">
+			<img src="" alt="" class="speaker-photo">
+			<div class="speaker-bio">
+				<p class="speaker-name">first last</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+				<h3>presentation title</h3>
+				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+			</div>
+		</section>
+		<!-- end partial -->
 	</article>
-	<article class="article panel">
-		<?php include('content/article-panel.html'); ?>
+	<article id="panel" class="article panel">
+		<!-- copy this for partial -->
+		<section>
+			<h2>panel</h2>
+		</section>
+		<section>
+			<h3>ask the experts</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+			<div class="speaker-panel">
+				<h4>first last</h4>
+				<p>expertise area</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+			</div>
+			<div class="speaker-panel">
+				<h4>first last</h4>
+				<p>expertise area</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+			</div>
+			<div class="speaker-panel">
+				<h4>first last</h4>
+				<p>expertise area</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+			</div>
+			<div class="speaker-panel">
+				<h4>first last</h4>
+				<p>expertise area</p>
+				<div class="speaker-socials">
+					<a href="">
+						<img src="" alt=""></a>
+					<a href="">
+						<img src="" alt=""></a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<img class="speaker-panel=photo" src="" alt="">
+			<img class="speaker-panel=photo" src="" alt="">
+			<img class="speaker-panel=photo" src="" alt="">
+			<img class="speaker-panel=photo" src="" alt="">
+		</section>
+		<!-- end partial -->
 	</article>
-	<nav class="nav">
-		
+	<nav id="nav" class="nav">
+		<ul>
+			<li><a href=""></a></li>
+			<li><a href="">about</a></li>
+			<li><a href="">speakers &amp; panels</a></li>
+			<li><a href="">venue</a></li>
+			<li><a href="">sponsors</a></li>
+			<li><a href="">organizers</a></li>
+		</ul>
+		<ul>
+			<li><button class="btn btn-large">register now</button></li>
+		</ul>
 	</nav>
-	<article class="article venue">
-		
+	<article id="venue" class="article venue">
+		<section>
+			<h2>venue</h2>
+		</section>
+		<section>
+			<map />
+		</section>
 	</article>
 	<article class="article brick-red">
 		
 	</article>
-	<article class="article sponsors">
-		
+	<article id="brick-red" class="article sponsors">
+		<section>
+			something goes here
+		</section>
+	</article>
+	<article id="sponsors" class="article sponsors">
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
+		<section class="sponsor-level sponsor-level-name">
+			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
+		</section>
 	</article>
 	<footer class="footer ">
-		
+		<section>
+			footer block 1
+		</section>
+		<section>
+			footer block 2
+		</section>
 	</footer>
 	<script src="js/activations.min.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

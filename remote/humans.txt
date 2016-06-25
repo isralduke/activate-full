@@ -1,18 +1,38 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* EVENT */
 
-# TEAM
+Site: ActivateConf.com
 
-  <name> -- <role> -- <twitter>
+Location: Baton Rouge, LA, USA
 
-  Lynsey Jordan Gwin -- pun hater -- @lynseydesign
-  Quinton Jason Jr -- lowkey pun lover -- @quintonjasonjr
-  isral C. Duke -- pun master -- @isralduke
 
-# THANKS
 
-  <name>
 
-# TECHNOLOGY COLOPHON
 
-  HTML5, CSS3
+
+
+
+
+/* SITE */
+
+Last update: 2016/06/25 
+
+Standards: HTML5, CSS3, SCSS, jQuery, GSAP
+
+Software: SublimeText3, CodeKit, GitHub, Transmit, MAMP Free
+
+
+
+
+
+
+
+
+/* TEAM */
+
+Site Designer: Lynsey Jordan Gwin (@lynseydesign)
+
+SVG Animator: Quinton Jason, Jr (@quintonjasonjr)
+
+jQuery & Server: Adam Culpepper (@adamculpepper)
+
+Front End Code: isral C. Duke (@isralduke)
