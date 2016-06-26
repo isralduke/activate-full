@@ -2,13 +2,13 @@
 // colors
 
 $indigo: #073c5e;
-$denim: #073c5e;
-$powder: #073c5e;
-$turquoise: #073c5e;
+$blue: #106ca8;
+$powder: #13afb5;
+$turquoise: #13afb5;
 $khaki: #fef4d3;
-$yellow: #073c5e;
-$orange: #073c5e;
-$red: #073c5e;
+$yellow: #efc913;
+$orange: #f47621;
+$red: #dd232b;
 $black: #000000;
 $white: #ffffff;
 
@@ -16,8 +16,6 @@ $fontfam: 'Panton', 'Roboto', 'Droid Sans', 'Helvetica', 'Verdana', 'Arial', san
 
 $unit: 20px;
 
-// type styles
+$easing: ease-out;
+$duration: 250ms;
 
-.text-center {
-	text-align: center;
-}

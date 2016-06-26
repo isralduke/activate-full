@@ -30,41 +30,53 @@
 </head>
 <body>
 	<article id="rocket" class="article rocket">
-		<img class="logo logo-rocket" src="/assets/img/rocket.svg" alt="activate rocket is ready to launch you">
+		<img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you">
 	</article>
-	<article id="about-activate" class="article about">
+	<article id="about-activate" class="wrap article about">
 		<!-- copy this for partial -->
-		<section>
-			<h2>about activate</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. </p>
-
-			<p>Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
-		</section>
-		<section>
-			<h2>stay updated</h2>
-			<div class="form-wrap">
-				<form action="">
-					<input type="email">
-					<button class="btn btn-text-only" type="submit">subscribe</button>
-				</form>
-			</div>
-		<section>
-			<div>
-				<h2>date</h2>
-				<p>day, month date, year<br /> time &ndash; time PM</p>
-				<button class="btn btn-has-icon">add calendar event</button>
-			</div>
-			<div>
-				<h2>venue</h2>
-				<p>venue name <br /> address1 <br /> city, state, zip</p>
-				<button class="btn btn-has-icon">more about venue</button>
-			</div>
-			<div>
-				<a href="fb"><img src="" alt="fb"></a>
-				<a href="tw"><img src="" alt="tw"></a>
-				<a href="ig"><img src="" alt="ig"></a>
-			</div>
-		</section>
+		<div class="col col-62">
+			<section class="section bg-white activate-info">
+				<h2 class="text-red">about activate</h2>
+				<p class="lead-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. </p>
+				<p>Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+			</section>
+			<section class="section bg-light-powder activate-subscribe">
+				<h3 class="text-blue">stay updated</h3>
+				<div class="form-wrap">
+					<form action="">
+						<div class="form-inline">
+							<input class="form-control" type="email">
+							<button class="btn btn-text-only" type="submit">subscribe</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</div>
+		<div class="col col-38">
+			<section class="section bg-red activate-date">
+				<div>
+					<h3 class="text-white">date</h3>
+					<p class="text-white">day, month date, year<br /> time &ndash; time PM</p>
+					<button class="btn btn-has-icon">add calendar event</button>
+				</div>
+				<div>
+					<h3 class="text-white">venue</h3>
+					<p class="text-white">venue name <br /> address1 <br />address 2<br /> city, state, zip</p>
+					<button class="btn btn-has-icon">more about venue</button>
+				</div>
+				<div>
+					<a href="fb">
+						<img class="social-icon" src="assets/img/icon-facebook.svg" alt="fb">
+					</a>
+					<a href="tw">
+						<img class="social-icon" src="assets/img/icon-twitter.svg" alt="tw">
+					</a>
+					<a href="ig">
+						<img class="social-icon" src="assets/img/icon-instagram.svg" alt="ig">
+					</a>
+				</div>
+			</section>
+		</div>
 		<!-- end partial -->
 	</article>
 	<article id="speakers" class="article speakers">
@@ -262,6 +274,7 @@
 			footer block 2
 		</section>
 	</footer>
+	<script src="js/vendor/min/svg-inject.min.js"></script>
 	<script src="js/activations.min.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 	<script>
