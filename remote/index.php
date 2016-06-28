@@ -79,67 +79,72 @@
 		</div>
 		<!-- end partial -->
 	</article>
-	<article id="speakers" class="article speakers">
+	<article id="speakers" class="wrap article speakers">
 		<!-- copy this for partial -->
-		<section>
-			<h2>speakers</h2>
-		</section>
-		<section class="speaker-bio">
-			<img src="" alt="" class="speaker-photo">
-			<div class="speaker-bio">
-				<p class="speaker-name">first last</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+		<div class="col">
+			<section>
+				<h2>speakers</h2>
+			</section>
+			<section class="speaker-bio-wrap blue">
+				<img src="assets/img/headshots/isral-c-duke.jpg" alt="" class="speaker-photo">
+				<div class="speaker-bio">
+					<h3 class="speaker-name">first last</h3>
+					<div class="speaker-socials">
+						<a href="">
+							<img src="" alt=""></a>
+						<a href="">
+							<img src="" alt=""></a>
+					</div>
+					<h4>presentation title</h4>
+					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
 				</div>
-				<h3>presentation title</h3>
-				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
-			</div>
-		</section>
-		<section class="speaker-bio">
-			<img src="" alt="" class="speaker-photo">
-			<div class="speaker-bio">
-				<p class="speaker-name">first last</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+			</section>
+			<section class="speaker-bio-wrap turquoise">
+				<img src="assets/img/headshots/isral-c-duke.jpg" alt="" class="speaker-photo">
+				<div class="speaker-bio">
+					<h3 class="speaker-name">first last</h3>
+					<div class="speaker-socials">
+						<a href="">
+							<img src="" alt=""></a>
+						<a href="">
+							<img src="" alt=""></a>
+					</div>
+					<h4>presentation title</h4>
+					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
 				</div>
-				<h3>presentation title</h3>
-				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
-			</div>
-		</section>
-		<section class="speaker-bio">
-			<img src="" alt="" class="speaker-photo">
-			<div class="speaker-bio">
-				<p class="speaker-name">first last</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+			</section>
+		</div>
+		<div class="col">
+			<section class="speaker-bio-wrap red">
+				<img src="assets/img/headshots/isral-c-duke.jpg" alt="" class="speaker-photo">
+				<div class="speaker-bio">
+					<h3 class="speaker-name">first last</h3>
+					<div class="speaker-socials">
+						<a href="">
+							<img src="" alt=""></a>
+						<a href="">
+							<img src="" alt=""></a>
+					</div>
+					<h4>presentation title</h4>
+					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
 				</div>
-				<h3>presentation title</h3>
-				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
-			</div>
-		</section>
-		<section class="speaker-bio">
-			<img src="" alt="" class="speaker-photo">
-			<div class="speaker-bio">
-				<p class="speaker-name">first last</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+			</section>
+			<section class="speaker-bio-wrap powder">
+				<img src="assets/img/headshots/isral-c-duke.jpg" alt="" class="speaker-photo">
+				<div class="speaker-bio">
+					<h3 class="speaker-name">first last</h3>
+					<div class="speaker-socials">
+						<a href="">
+							<img src="" alt=""></a>
+						<a href="">
+							<img src="" alt=""></a>
+					</div>
+					<h4>presentation title</h4>
+					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
 				</div>
-				<h3>presentation title</h3>
-				<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
-			</div>
-		</section>
+			</section>
+		</div>
+		
 		<!-- end partial -->
 	</article>
 	<article id="panel" class="article panel">

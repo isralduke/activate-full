@@ -299,6 +299,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/headshots\/isral-c-duke-orig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00469e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/isral-c-duke-orig.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/isral-c-duke-orig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/isral-c-duke.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57744,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/isral-c-duke.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/isral-c-duke.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/contents\/article-about.html": {
 		"fileType": 8192,
 		"ignore": 1,
