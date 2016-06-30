@@ -20,7 +20,7 @@ h {
 		font-size: 28px;
 	}
 	&4 {
-
+		font-size: 20px;
 	}
 }
 // --------------------------------
@@ -150,31 +150,68 @@ input {
 }
 .speaker-bio-wrap {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: stretch;
 	&.blue {
 		background-color: $blue;
+		.speaker-photo {
+			background-color: $blue;
+		}
 	}
 	&.turquoise {
 		background-color: $turquoise;
+		.speaker-photo {
+			background-color: $turquoise;
+		}
 	}
 	&.red {
 		background-color: $red;
+		.speaker-photo {
+			background-color: $red;
+		}
 	}
-	&.powder{
+	&.powder {
 		background-color: $powder;
+		.speaker-photo {
+			background-color: $powder;
+		}
 	}
 }
 .speaker-photo {
-	width: 20%;
+	width: 100%; height: 400px;
+	background-color: transparent;
+	background-position: center center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	img {
+		width: 100%;
+	}
 }
 .speaker-bio {
 	flex: 1;
 	padding: $unit*2;
+	h4 {
+		text-transform: capitalize;
+	}
+}
+.speaker-name {
+	margin-bottom: $unit*.5;
+	text-transform: capitalize;
+}
+.speaker-name-aux {
+	color: darken($blue, 10%);
+	font-size: smaller;
+	text-transform: uppercase;
 }
 .speaker-summary {
 	color: $white;
+}
+.speaker-socials {
+	margin-bottom: $unit*.5;
+	.social-icon {
+		background-color: darken($blue, 10%);
+	}
 }
 // --------------------------------
 // media queries
@@ -203,11 +240,12 @@ input {
 	.col-62 {
 		width: 62%;
 	}
-	.activate-info, .activate-subscribe {
-
+	
+	.speaker-bio-wrap {
+		flex-direction: row;
 	}
-	.activate-date {
-
+	.speaker-photo {
+		width: 38%; height: unset;
 	}
 }
 @media screen and ( min-width: 768px ) {
@@ -234,15 +272,16 @@ input {
 			flex-basis: 120px;
 		}
 	}
-	.speakers {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-content: flex-start;
-	}
 	.col {
 		width: 50%;
 	}
+	.speakers {
+		
+		.col {
+			width: 100%;
+		}
+	}
+	
 	.speaker-photo {
 		width: 35%;
 	}
@@ -254,8 +293,30 @@ input {
 			margin: $unit*5 auto 0;
 		}
 	}
+	.speakers {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: center;
+		.col {
+			
+		}
+	}
+	.speaker-photo {
+		width: 38%;
+	}
 }
 @media screen and ( min-width: 1280px ) {
+	.speakers {
+		flex-direction: row;
+		justify-content: space-between;
+		.col {
+			width: 50%;
+		}
+	}
+	.speaker-photo {
+		width: 38%;
+	}
 	
 }
 @media screen and ( min-width: 1440px ) {

@@ -458,6 +458,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/fb.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/fb.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/ig.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/ig.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/tw.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/tw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/pastes.html": {
 		"fileType": 8192,
 		"ignore": 0,
