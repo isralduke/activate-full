@@ -295,15 +295,19 @@ input {
 	}
 	.speakers {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: flex-start;
+		align-items: flex-start;
 		align-content: center;
 		.col {
 			
 		}
 	}
+	.speaker-bio-wrap {
+		flex-direction: column;
+	}
 	.speaker-photo {
-		width: 38%;
+		width: 100%; height: 400px;
 	}
 }
 @media screen and ( min-width: 1280px ) {
@@ -313,6 +317,9 @@ input {
 		.col {
 			width: 50%;
 		}
+	}
+	.speaker-bio-wrap {
+		flex-direction: row;
 	}
 	.speaker-photo {
 		width: 38%;
