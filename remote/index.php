@@ -171,61 +171,85 @@
 		
 		<!-- end partial -->
 	</article>
-	<article id="panel" class="article panel">
+	<article id="panel" class="wrap article panel">
 		<!-- copy this for partial -->
-		<section>
-			<h2>panel</h2>
-		</section>
-		<section>
-			<h3>ask the experts</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
-			<div class="speaker-panel">
-				<h4>first last</h4>
-				<p>expertise area</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+		<div class="col col-50">
+			<section class="section">
+				<h2>panel</h2>
+			</section>
+			<section class="section">
+				<h3>ask the experts</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+				<div class="speaker-panel">
+					<h4>first last</h4>
+					<p>expertise area</p>
+					<div class="speaker-socials">
+						<a href="fb">
+							<?php include('partials/fb.html'); ?>
+						</a>
+						<a href="tw">
+							<?php include('partials/tw.html'); ?>
+						</a>
+						<a href="ig">
+							<?php include('partials/ig.html'); ?>
+						</a>
+					</div>
 				</div>
-			</div>
-			<div class="speaker-panel">
-				<h4>first last</h4>
-				<p>expertise area</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+				<div class="speaker-panel">
+					<h4>first last</h4>
+					<p>expertise area</p>
+					<div class="speaker-socials">
+						<a href="fb">
+							<?php include('partials/fb.html'); ?>
+						</a>
+						<a href="tw">
+							<?php include('partials/tw.html'); ?>
+						</a>
+						<a href="ig">
+							<?php include('partials/ig.html'); ?>
+						</a>
+					</div>
 				</div>
-			</div>
-			<div class="speaker-panel">
-				<h4>first last</h4>
-				<p>expertise area</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+				<div class="speaker-panel">
+					<h4>first last</h4>
+					<p>expertise area</p>
+					<div class="speaker-socials">
+						<a href="fb">
+							<?php include('partials/fb.html'); ?>
+						</a>
+						<a href="tw">
+							<?php include('partials/tw.html'); ?>
+						</a>
+						<a href="ig">
+							<?php include('partials/ig.html'); ?>
+						</a>
+					</div>
 				</div>
-			</div>
-			<div class="speaker-panel">
-				<h4>first last</h4>
-				<p>expertise area</p>
-				<div class="speaker-socials">
-					<a href="">
-						<img src="" alt=""></a>
-					<a href="">
-						<img src="" alt=""></a>
+				<div class="speaker-panel">
+					<h4>first last</h4>
+					<p>expertise area</p>
+					<div class="speaker-socials">
+						<a href="fb">
+							<?php include('partials/fb.html'); ?>
+						</a>
+						<a href="tw">
+							<?php include('partials/tw.html'); ?>
+						</a>
+						<a href="ig">
+							<?php include('partials/ig.html'); ?>
+						</a>
+					</div>
 				</div>
-			</div>
-		</section>
-		<section>
-			<img class="speaker-panel=photo" src="" alt="">
-			<img class="speaker-panel=photo" src="" alt="">
-			<img class="speaker-panel=photo" src="" alt="">
-			<img class="speaker-panel=photo" src="" alt="">
-		</section>
+			</section>
+		</div>
+		<div class="col col-50">
+			<section class="speaker-panel-photos">
+				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+			</section>
+		</div>
 		<!-- end partial -->
 	</article>
 	<nav id="nav" class="nav">

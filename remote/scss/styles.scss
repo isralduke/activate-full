@@ -213,6 +213,21 @@ input {
 		background-color: darken($blue, 10%);
 	}
 }
+.panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.speaker-panel-photos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.speaker-panel-photo {
+	width: 50%;
+}
 // --------------------------------
 // media queries
 
@@ -246,6 +261,9 @@ input {
 	}
 	.speaker-photo {
 		width: 38%; height: unset;
+	}
+	.panel {
+		flex-direction: row;
 	}
 }
 @media screen and ( min-width: 768px ) {
