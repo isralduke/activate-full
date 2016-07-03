@@ -32,6 +32,9 @@
 	<article id="rocket" class="article rocket">
 		<img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you">
 	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<article id="about-activate" class="wrap article about">
 		<!-- copy this for partial -->
 		<div class="col col-62">
@@ -79,6 +82,9 @@
 		</div>
 		<!-- end partial -->
 	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<article id="speakers" class="wrap article speakers">
 		<!-- copy this for partial -->
 		<div class="col">
@@ -171,6 +177,9 @@
 		
 		<!-- end partial -->
 	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<article id="panel" class="wrap article panel">
 		<!-- copy this for partial -->
 		<div class="col col-50">
@@ -252,38 +261,39 @@
 		</div>
 		<!-- end partial -->
 	</article>
-	<div class="bg-color bg-white">
-		<nav id="nav" class="wrap nav">
-			<ul class="nav-items menu">
-				<li class="menu-rocket"><a href="rocket"><img class="nav-img" src="assets/img/rocket.svg" alt=""></a></li>
-				<li><a href="about-activate">about</a></li>
-				<li><a href="speakers">speakers <br class="show-mobile" />&amp; panels</a></li>
-				<li><a href="venue">venue</a></li>
-				<li><a href="sponsors">sponsors</a></li>
-				<li><a href="organizers">organizers</a></li>
-			</ul>
-			<ul class="nav-items register">
-				<li><a id="btn-register" class="">register now</a></li>
-			</ul>
-		</nav>
+	
+	<?php include('partials/navbar.html'); ?>
+	
+	<div class="bg-color bg-powder">
+		<article id="venue" class="wrap article venue">
+			<section class="section">
+				<h2>venue</h2>
+			</section>
+			<section class="section">
+				<div class='embed-container'>
+					<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.457866162031!2d-91.18388954926624!3d30.45146688164646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0dd10e52027%3A0x7eb56487c2972f32!2sCreative+Bloc!5e0!3m2!1sen!2sus!4v1467584173057' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
+				</div>
+			</section>
+		</article>
 	</div>
 	
-	<article id="venue" class="article venue">
-		<section>
-			<h2>venue</h2>
-		</section>
-		<section>
-			<map />
-		</section>
-	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<article class="article brick-red">
 		
 	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<article id="brick-red" class="article sponsors">
 		<section>
 			something goes here
 		</section>
 	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<article id="sponsors" class="article sponsors">
 		<section class="sponsor-level sponsor-level-name">
 			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
@@ -322,6 +332,9 @@
 			<img class="sponsor-logo" src="" alt="Sponsor Name Logo">
 		</section>
 	</article>
+
+	<?php include('partials/navbar.html'); ?>
+
 	<footer class="footer ">
 		<section>
 			footer block 1
@@ -331,6 +344,7 @@
 		</section>
 	</footer>
 	<script src="js/vendor/min/svg-inject.min.js"></script>
+	<script src="js/vendor/min/smooth-scroll.min.js"></script>
 	<script src="js/activations.min.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 	<script>

@@ -303,6 +303,32 @@ input {
 	}
 }
 
+// --------------------------------
+// venue rules
+.bg-powder {
+	background-color: lighten($powder, 35%);
+}
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	max-width: 100%; height: 0; 
+	overflow: hidden;
+}
+.embed-container iframe, .embed-container object, 
+.embed-container embed { 
+	position: absolute; top: 0; left: 0; 
+	width: 100%; height: 100%; 
+}
+.venue {
+	section {
+		&:nth-child(1) {
+			background-color: $white;
+		}
+		h2 {
+			color: $red;
+		}
+	}
+}
 
 
 
@@ -363,6 +389,22 @@ input {
 				a {
 					background-color: $indigo;	
 				}
+			}
+		}
+	}
+	.venue {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		section {
+			&:nth-child(1) {
+				width: 38%;
+			}
+			&:nth-child(2) {
+				width: 62%;
+			}
+			h2 {
+				color: $red;
 			}
 		}
 	}
@@ -484,15 +526,23 @@ input {
 	.speaker-photo {
 		width: 38%;
 	}
+	.wrap {
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		width: 1280px;
+	}
 	
 }
 @media screen and ( min-width: 1440px ) {
+	/*
 	.wrap {
 		position: relative;
 		margin-right: auto;
 		margin-left: auto;
 		width: 1400px;
 	}
+	*/
 }
 @media screen and ( min-width: 1920px ) {
 	
