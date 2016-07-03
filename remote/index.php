@@ -252,19 +252,22 @@
 		</div>
 		<!-- end partial -->
 	</article>
-	<nav id="nav" class="nav">
-		<ul>
-			<li><a href=""></a></li>
-			<li><a href="">about</a></li>
-			<li><a href="">speakers &amp; panels</a></li>
-			<li><a href="">venue</a></li>
-			<li><a href="">sponsors</a></li>
-			<li><a href="">organizers</a></li>
-		</ul>
-		<ul>
-			<li><button class="btn btn-large">register now</button></li>
-		</ul>
-	</nav>
+	<div class="bg-color bg-white">
+		<nav id="nav" class="wrap nav">
+			<ul class="nav-items menu">
+				<li class="menu-rocket"><a href="rocket"><img class="nav-img" src="assets/img/rocket.svg" alt=""></a></li>
+				<li><a href="about-activate">about</a></li>
+				<li><a href="speakers">speakers <br class="show-mobile" />&amp; panels</a></li>
+				<li><a href="venue">venue</a></li>
+				<li><a href="sponsors">sponsors</a></li>
+				<li><a href="organizers">organizers</a></li>
+			</ul>
+			<ul class="nav-items register">
+				<li><a id="btn-register" class="">register now</a></li>
+			</ul>
+		</nav>
+	</div>
+	
 	<article id="venue" class="article venue">
 		<section>
 			<h2>venue</h2>

@@ -3,7 +3,7 @@
 @import 'mixins';
 
 body {
-	background-color: $indigo;
+	
 }
 h {
 	&1, &2, &3, &4, &5, &6 {
@@ -77,6 +77,9 @@ img {
 	&.logo {
 
 	}
+	&.nav-img {
+		width: 48px; height: 48px;
+	}
 }
 .social-icon {
 	width: 44px; height: 44px;
@@ -117,9 +120,13 @@ img {
 	background-size: contain;
 	overflow: hidden;
 	@extend .text-center;
+	margin-bottom: 200px;
 }
+// --------------------------------
+// about rules
 .about {
-	
+	padding-bottom: 200px;
+	background-color: $indigo;
 }
 .activate-date {
 	div {
@@ -140,7 +147,12 @@ input {
 		width: 100%; height: $unit*2;
 	}
 }
+// --------------------------------
+// speaker rules
 .speakers {
+	background-color: $indigo;
+	padding-top: $unit*5;
+	padding-bottom: $unit*5;
 	.col {
 
 	}
@@ -213,11 +225,25 @@ input {
 		background-color: darken($blue, 10%);
 	}
 }
+// --------------------------------
+// panel rules
 .panel {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: flex-start;
+	
+	padding-bottom: $unit*5;
+	.col {
+		&:nth-child(1) {
+			background-color: $indigo;
+			section {
+				&:nth-child(2) {
+					background-color: $blue;
+				}
+			}
+		}
+	}
 }
 .speaker-panel-photos {
 	display: flex;
@@ -229,9 +255,69 @@ input {
 	width: 50%;
 }
 // --------------------------------
+// nav bar rules
+.nav, .nav-items {
+}
+.nav {
+	background-color: $white;
+	padding: $unit 0; 
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.nav-items {
+	padding: 0; margin: 0;
+	list-style: none;
+	li {
+		a {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: $unit*.5 $unit;
+			height: 48px;
+			color: $white;
+			text-transform: capitalize;
+		}
+	}
+	&.menu {
+		order: 1;	
+		display: flex;
+		flex-flow: row wrap;
+		li {
+			width: 33.33%;
+			a {
+				background-color: $indigo;	
+			}
+			
+		}
+	}
+	&.register {
+		order: 0;
+		li {
+			a {
+				background-color: $turquoise; color: $white;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+// --------------------------------
 // media queries
 
 @media screen and ( min-width: 600px ) {
+	
 	img {
 		&.logo-rocket {
 			width: $unit*10;
@@ -265,6 +351,24 @@ input {
 	.panel {
 		flex-direction: row;
 	}
+
+	.nav-items {
+		&.menu {
+			flex-flow: row wrap;
+			li {
+				width: calc(20% - 12.8px );
+				&.menu-rocket {
+					width: 64px;
+				}
+				a {
+					background-color: $indigo;	
+				}
+			}
+		}
+	}
+	
+	
+	
 }
 @media screen and ( min-width: 768px ) {
 	.rocket {
@@ -303,6 +407,42 @@ input {
 	.speaker-photo {
 		width: 35%;
 	}
+	.nav {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.nav-items {
+		li {
+			a {
+				
+			}
+		}
+		&.menu {
+			order: 0;	
+			display: flex;
+			flex-flow: row wrap;
+			li {
+				width: unset;
+				a {
+					background-color: $indigo;	
+				}
+				
+			}
+			li.menu-rocket {
+				width: 64px;
+			}
+		}
+		&.register {
+			order: 1;
+			li {
+				a {
+					background-color: $turquoise; color: $white;
+				}
+			}
+		}
+	}
+	
+	
 	
 }
 @media screen and ( min-width: 1024px ) {
@@ -327,6 +467,8 @@ input {
 	.speaker-photo {
 		width: 100%; height: 400px;
 	}
+	
+	
 }
 @media screen and ( min-width: 1280px ) {
 	.speakers {
@@ -347,7 +489,8 @@ input {
 @media screen and ( min-width: 1440px ) {
 	.wrap {
 		position: relative;
-		margin: 0 auto;
+		margin-right: auto;
+		margin-left: auto;
 		width: 1400px;
 	}
 }

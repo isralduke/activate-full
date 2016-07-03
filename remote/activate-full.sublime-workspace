@@ -3,15 +3,87 @@
 	{
 		"selected_items":
 		[
+			[
+				"flex-",
+				"flex-start"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"sma",
+				"smaller"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"di",
+				"display"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "scss/styles.scss",
 			"settings":
 			{
-				"buffer_size": 11804,
+				"buffer_size": 5213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 365,
 				"line_ending": "Unix"
 			}
 		}
@@ -63,11 +135,7 @@
 	"expanded_folders":
 	[
 		"/Users/isral/repos/activate-full/remote",
-		"/Users/isral/repos/activate-full/remote/assets",
-		"/Users/isral/repos/activate-full/remote/assets/css",
 		"/Users/isral/repos/activate-full/remote/assets/files",
-		"/Users/isral/repos/activate-full/remote/assets/img",
-		"/Users/isral/repos/activate-full/remote/contents",
 		"/Users/isral/repos/activate-full/remote/css",
 		"/Users/isral/repos/activate-full/remote/js",
 		"/Users/isral/repos/activate-full/remote/js/min",
@@ -78,6 +146,7 @@
 	],
 	"file_history":
 	[
+		"/Users/isral/repos/activate-full/remote/partials/fb.html",
 		"/Users/isral/repos/activate-full/remote/assets/img/icon-twitter.svg",
 		"/Users/isral/repos/activate-full/remote/assets/img/icon-facebook.svg",
 		"/Users/isral/repos/activate-full/remote/assets/img/icon-instagram.svg",
@@ -96,7 +165,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -110,6 +179,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"panel",
+			"of-type",
+			"<h3>presentation title</h3>",
+			"<p class=\"speaker-name\">first last</p>",
+			"<section class=\"speaker-bio\">",
+			"<img src=\"\" alt=\"\" class=\"speaker-photo\">",
+			"wrap-site",
+			"<section class=\"col speaker-bio-wrap\">",
+			"<img src=\"\"",
+			"speaker-bio-wrap",
+			"speaker-bio col-50",
+			"speaker-photo col-50",
+			"<section class=\" \">",
+			"<h3>presentation title</h3>",
+			"<p class=\"speaker-name\">first last</p>",
+			"col-50",
+			"speaker-bio",
+			"<section>",
 			"h2",
 			"src=\"icon-",
 			"<img src=\"\" alt=\"",
@@ -145,32 +232,59 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "scss/styles.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11804,
+						"buffer_size": 5213,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3760,
-								3760
+								3947,
+								3952
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 5,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 644.0,
+						"translation.y": 4716.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -252,7 +366,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
