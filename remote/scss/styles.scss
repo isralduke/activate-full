@@ -80,6 +80,9 @@ img {
 	&.nav-img {
 		width: 48px; height: 48px;
 	}
+	&.sponsor-logo {
+		max-width: 100px; height: 60px;
+	}
 }
 .social-icon {
 	width: 44px; height: 44px;
@@ -330,9 +333,41 @@ input {
 	}
 }
 
+// --------------------------------
+// empty red area rules
+.bg-red {
+	background-color: $red;
+}
+.brick-red {
+	padding: $unit*4 0;
+}
 
+// --------------------------------
+// sponsors rules
+.bg-grey {
 
-
+}
+.sponsors {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	& > .section {
+		width: 100%;
+		background-color: $indigo;
+	}
+	.col {
+		width: 50%;
+		background-color: red;
+		box-sizing: border-box;
+		padding: $unit;
+	}
+}
+.sponsor-level {
+	text-align: center;
+	&:not(:last-of-type) {
+		margin-bottom: $unit;
+	}
+}
 
 
 
@@ -348,6 +383,9 @@ input {
 		&.logo-rocket {
 			width: $unit*10;
 			margin: $unit*5 auto 0;
+		}
+		&.sponsor-logo {
+			height: 60px;
 		}
 	}
 	.about {
@@ -405,6 +443,15 @@ input {
 			}
 			h2 {
 				color: $red;
+			}
+		}
+	}
+	.sponsors {
+		.col {
+			width: 25%;
+			background-color: purple;
+			&:nth-child(odd) {
+				transform: translateY(-$unit);
 			}
 		}
 	}
