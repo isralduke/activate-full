@@ -3,7 +3,7 @@
 @import 'mixins';
 
 body {
-	
+	background-color: $indigo;
 }
 h {
 	&1, &2, &3, &4, &5, &6 {
@@ -56,6 +56,18 @@ h {
 }
 .bg-red {
 	background-color: $red;
+}
+.bg-orange {
+	background-color: $orange;
+}
+.bg-yellow {
+	background-color: $yellow;
+}
+.bg-blue {
+	background-color: $blue;
+}
+.bg-turquoise {
+	background-color: $turquoise;
 }
 // --------------------------------
 // element rules w modifiers
@@ -123,12 +135,12 @@ img {
 	background-size: contain;
 	overflow: hidden;
 	@extend .text-center;
-	margin-bottom: 200px;
+	// margin-bottom: 200px;
 }
 // --------------------------------
 // about rules
 .about {
-	padding-bottom: 200px;
+	// padding-bottom: 200px;
 	background-color: $indigo;
 }
 .activate-date {
@@ -205,7 +217,7 @@ input {
 }
 .speaker-bio {
 	flex: 1;
-	padding: $unit*2;
+	padding: $unit*2 $unit*2 0;
 	h4 {
 		text-transform: capitalize;
 	}
@@ -236,7 +248,7 @@ input {
 	justify-content: flex-start;
 	align-items: flex-start;
 	
-	padding-bottom: $unit*5;
+	// padding-bottom: $unit*5;
 	.col {
 		&:nth-child(1) {
 			background-color: $indigo;
@@ -326,6 +338,7 @@ input {
 	section {
 		&:nth-child(1) {
 			background-color: $white;
+			align-self: flex-start;
 		}
 		h2 {
 			color: $red;
@@ -359,13 +372,13 @@ input {
 		width: 50%;
 		background-color: red;
 		box-sizing: border-box;
-		padding: $unit;
 	}
 }
 .sponsor-level {
 	text-align: center;
+	padding: $unit;
 	&:not(:last-of-type) {
-		margin-bottom: $unit;
+		//margin-bottom: $unit;
 	}
 }
 

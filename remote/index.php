@@ -33,7 +33,9 @@
 		<img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you">
 	</article>
 
+	
 	<?php include('partials/navbar.html'); ?>
+
 
 	<article id="about-activate" class="wrap article about">
 		<!-- copy this for partial -->
@@ -83,7 +85,9 @@
 		<!-- end partial -->
 	</article>
 
+	
 	<?php include('partials/navbar.html'); ?>
+
 
 	<article id="speakers" class="wrap article speakers">
 		<!-- copy this for partial -->
@@ -178,7 +182,9 @@
 		<!-- end partial -->
 	</article>
 
+	
 	<?php include('partials/navbar.html'); ?>
+
 
 	<article id="panel" class="wrap article panel">
 		<!-- copy this for partial -->
@@ -262,7 +268,9 @@
 		<!-- end partial -->
 	</article>
 	
+	
 	<?php include('partials/navbar.html'); ?>
+
 	
 	<div class="bg-color bg-powder">
 		<article id="venue" class="wrap article venue">
@@ -277,25 +285,19 @@
 		</article>
 	</div>
 	
+	
 	<?php include('partials/navbar.html'); ?>
+
 
 	<div class="bg-color bg-red">
 		<article class="wrap article brick-red">
 			something goes here
 		</article>
 	</div>
+
+
+	<?php include('partials/navbar.html'); ?>
 	
-
-	<?php include('partials/navbar.html'); ?>
-
-	<article id="brick-red" class="article ">
-		<section>
-			something goes here
-		</section>
-	</article>
-
-	<?php include('partials/navbar.html'); ?>
-
 
 	<div class="bg-color bg-grey">
 		<article id="sponsors" class="wrap article sponsors">
@@ -303,61 +305,52 @@
 				<h2>sponsors</h2>
 			</section>
 			<div class="col">
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-powder">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/android-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-orange">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/apple-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-yellow">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/github-logo.svg" alt="Sponsor Name Logo">
 				</section>
 			</div>
 			<div class="col">
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-red">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/google-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-powder">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/slack-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-blue">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/twitter-logo.svg" alt="Sponsor Name Logo">
 				</section>
 			</div>
 			<div class="col">
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-powder">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/android-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-turquoise">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/apple-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-powder">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/github-logo.svg" alt="Sponsor Name Logo">
 				</section>
 			</div>
 			<div class="col">
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-blue">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/google-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-powder">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/slack-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name">
+				<section class="sponsor-level sponsor-level-name bg-blue">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/twitter-logo.svg" alt="Sponsor Name Logo">
 				</section>
 			</div>
 		</article>
 	</div>
-	<?php include('partials/navbar.html'); ?>
-
-	<footer class="footer ">
-		<section>
-			footer block 1
-		</section>
-		<section>
-			footer block 2
-		</section>
-	</footer>
+	
 	<script src="js/vendor/min/svg-inject.min.js"></script>
 	<script src="js/vendor/min/smooth-scroll.min.js"></script>
 	<script src="js/activations.min.js"></script>
