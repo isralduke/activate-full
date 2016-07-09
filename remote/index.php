@@ -26,6 +26,8 @@
 	<meta name="twitter:image" content="http://www.activateconf.com/">
 	<meta name="author" content="Lynsey Gwin Jordan, Quinton Jason Jr, and Isral C. Duke" />
 	<link type="text/plain" rel="author" href="/humans.txt" />
+
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/3e1612c7-37ae-49f9-b020-c52a55c407de.css"/>
 	<link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -96,7 +98,8 @@
 				<h2>speakers</h2>
 			</section>
 			<section class="speaker-bio-wrap blue">
-				<div class="speaker-photo" style="background-image: url('assets/img/headshots/isral-c-duke.jpg');">
+				<div class="speaker-photo">
+					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
@@ -116,7 +119,8 @@
 				</div>
 			</section>
 			<section class="speaker-bio-wrap turquoise">
-				<div class="speaker-photo" style="background-image: url('assets/img/headshots/isral-c-duke.jpg');">
+				<div class="speaker-photo">
+					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
@@ -138,7 +142,8 @@
 		</div>
 		<div class="col">
 			<section class="speaker-bio-wrap red">
-				<div class="speaker-photo" style="background-image: url('assets/img/headshots/isral-c-duke.jpg');">
+				<div class="speaker-photo">
+					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
@@ -158,7 +163,8 @@
 				</div>
 			</section>
 			<section class="speaker-bio-wrap powder">
-				<div class="speaker-photo" style="background-image: url('assets/img/headshots/isral-c-duke.jpg');">
+				<div class="speaker-photo">
+					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>

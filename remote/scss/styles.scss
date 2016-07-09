@@ -4,11 +4,15 @@
 
 body {
 	background-color: $indigo;
+	font-family: 'Panton W01 Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	line-height: 1.75;
 }
 h {
 	&1, &2, &3, &4, &5, &6 {
 		color: $white;
 		margin: 0 0 $unit 0;
+		line-height: 1;
+		font-weight: 700;
 	}
 	&1 {
 
@@ -105,7 +109,7 @@ img {
 		width: 48px; height: 48px;
 	}
 	&.sponsor-logo {
-		max-width: 100px; height: 60px;
+		max-width: 100px;
 	}
 }
 .social-icon {
@@ -119,6 +123,7 @@ img {
 .btn {
 	background-color: $turquoise; color: $white;
 	border: none;
+	height: 48px;
 	@extend .text-capitalize;
 	padding: $unit*.5 $unit;
 }
@@ -154,6 +159,12 @@ img {
 .about {
 	// padding-bottom: 200px;
 	background-color: $indigo;
+	.col-62 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		background-color: $white;
+	}
 }
 .activate-date {
 	div {
@@ -190,8 +201,6 @@ input {
 .speaker-bio-wrap {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: stretch;
 	&.blue {
 		background-color: $blue;
 		.speaker-photo {
@@ -218,14 +227,14 @@ input {
 	}
 }
 .speaker-photo {
-	width: 100%; height: 400px;
+	width: 100%; 
 	background-color: transparent;
 	background-position: center center;
 	background-size: cover;
 	background-blend-mode: multiply;
 	img {
-		width: 100%;
-	}
+			width: 100%;
+		}
 }
 .speaker-bio {
 	flex: 1;
@@ -317,6 +326,7 @@ input {
 			height: 48px;
 			color: $white;
 			text-transform: capitalize;
+			line-height: 1.25;
 		}
 	}
 	&.menu {
@@ -384,13 +394,13 @@ input {
 	}
 	.col {
 		width: 50%;
-		background-color: red;
+		background-color: $white;
 		box-sizing: border-box;
 	}
 }
 .sponsor-level {
 	text-align: center;
-	padding: $unit*2 $unit;
+	padding: $unit*2;
 	&:not(:last-of-type) {
 		//margin-bottom: $unit;
 	}
@@ -420,19 +430,11 @@ input {
 // media queries
 
 @media screen and ( min-width: 600px ) {
-	h {
-		&2 {
-			font-size: 76px;
-		}
-	}
 	
 	img {
 		&.logo-rocket {
 			width: $unit*10;
 			margin: $unit*5 auto 0;
-		}
-		&.sponsor-logo {
-			height: 60px;
 		}
 	}
 	.about {
@@ -497,9 +499,6 @@ input {
 		.col {
 			width: 25%;
 			background-color: purple;
-			&:nth-child(odd) {
-				transform: translateY(-$unit);
-			}
 		}
 	}
 	
@@ -520,11 +519,21 @@ input {
 	.section {
 		padding: $unit*2;
 	}
+	.about {
+
+		.col-38 {
+			width: 38%;
+		}
+		.col-62 {
+			width: 68%;
+		}
+	}
 	.form-inline {
 		display: flex;
 		justify-content: space-between;
 		.form-control {
 			flex: 1;
+			height: 48px;
 		}
 		.btn {
 			flex-basis: 120px;
@@ -533,6 +542,7 @@ input {
 	.col {
 		width: 50%;
 	}
+	
 	.speakers {
 		
 		.col {
@@ -584,7 +594,12 @@ input {
 @media screen and ( min-width: 1024px ) {
 	img {
 		&.logo-rocket {
-			margin: $unit*5 auto 0;
+			margin: $unit*4 auto 0;
+		}
+	}
+	h {
+		&2 {
+			font-size: 72px;
 		}
 	}
 	.speakers {
@@ -592,18 +607,30 @@ input {
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
-		align-content: center;
+		align-content: flex-start;
 		.col {
-			
+			width: 50%;
 		}
 	}
 	.speaker-bio-wrap {
 		flex-direction: column;
 	}
 	.speaker-photo {
-		width: 100%; height: 400px;
+		width: 100%; 
 	}
-	
+	.sponsors {
+		margin-bottom: $unit;
+		.col {
+			&:nth-child(2) {
+				transform: translateY( $unit );
+				z-indeX: 100;
+			}
+			&:nth-child(4) {
+				transform: translateY( $unit );
+				z-indeX: 100;
+			}
+		}
+	}
 	
 }
 @media screen and ( min-width: 1280px ) {
@@ -616,6 +643,8 @@ input {
 	}
 	.speaker-bio-wrap {
 		flex-direction: row;
+		align-items: stretch;
+		align-content: stretch;
 	}
 	.speaker-photo {
 		width: 38%;
