@@ -97,7 +97,7 @@
 			</section>
 			<section class="speaker-bio-wrap blue">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
@@ -118,7 +118,7 @@
 			</section>
 			<section class="speaker-bio-wrap turquoise">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
@@ -141,7 +141,7 @@
 		<div class="col col-50">
 			<section class="speaker-bio-wrap red">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
@@ -162,7 +162,7 @@
 			</section>
 			<section class="speaker-bio-wrap powder">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
 				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
