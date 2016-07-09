@@ -151,8 +151,19 @@ img {
 	background-repeat: no-repeat;
 	background-size: contain;
 	overflow: hidden;
+	padding: 1em 0;
 	@extend .text-center;
 	// margin-bottom: 200px;
+}
+#mySVG{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+}
+#rocket-svg{
+	width: 230px;
+	transform: rotate(-8deg);
 }
 // --------------------------------
 // about rules
