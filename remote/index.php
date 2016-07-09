@@ -92,7 +92,7 @@
 	<article id="speakers" class="wrap article speakers">
 		<!-- copy this for partial -->
 		<div class="col">
-			<section>
+			<section class="section">
 				<h2>speakers</h2>
 			</section>
 			<section class="speaker-bio-wrap blue">
@@ -287,16 +287,6 @@
 	
 	
 	<?php include('partials/navbar.html'); ?>
-
-
-	<div class="bg-color bg-red">
-		<article class="wrap article brick-red">
-			something goes here
-		</article>
-	</div>
-
-
-	<?php include('partials/navbar.html'); ?>
 	
 
 	<div class="bg-color bg-grey">
@@ -333,19 +323,89 @@
 				<section class="sponsor-level sponsor-level-name bg-turquoise">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/apple-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name bg-powder">
+				<section class="sponsor-level sponsor-level-name bg-yellow">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/github-logo.svg" alt="Sponsor Name Logo">
 				</section>
 			</div>
 			<div class="col">
-				<section class="sponsor-level sponsor-level-name bg-blue">
+				<section class="sponsor-level sponsor-level-name bg-orange">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/google-logo.svg" alt="Sponsor Name Logo">
 				</section>
 				<section class="sponsor-level sponsor-level-name bg-powder">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/slack-logo.svg" alt="Sponsor Name Logo">
 				</section>
-				<section class="sponsor-level sponsor-level-name bg-blue">
+				<section class="sponsor-level sponsor-level-name bg-red">
 					<img class="inject-me sponsor-logo" src="assets/img/logos/twitter-logo.svg" alt="Sponsor Name Logo">
+				</section>
+			</div>
+		</article>
+	</div>
+
+
+	<?php include('partials/navbar.html'); ?>
+
+
+	<div class="bg-color bg-indigo">
+		<article id="organizers" class="wrap article organizers">
+			<div class="col col-50">
+				<section class="section">
+					<h2>organizers</h2>
+				</section>
+				<section class="section">
+					<h3>activating your reach</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+					<div class="speaker-panel">
+						<h4>lynsey jordan gwin</h4>
+						<p>envoc</p>
+						<div class="speaker-socials">
+							<a href="fb">
+								<?php include('partials/fb.html'); ?>
+							</a>
+							<a href="tw">
+								<?php include('partials/tw.html'); ?>
+							</a>
+							<a href="ig">
+								<?php include('partials/ig.html'); ?>
+							</a>
+						</div>
+					</div>
+					<div class="speaker-panel">
+						<h4>quinton jason jr</h4>
+						<p>x design</p>
+						<div class="speaker-socials">
+							<a href="fb">
+								<?php include('partials/fb.html'); ?>
+							</a>
+							<a href="tw">
+								<?php include('partials/tw.html'); ?>
+							</a>
+							<a href="ig">
+								<?php include('partials/ig.html'); ?>
+							</a>
+						</div>
+					</div>
+					<div class="speaker-panel">
+						<h4>isral duke</h4>
+						<p>stun design</p>
+						<div class="speaker-socials">
+							<a href="fb">
+								<?php include('partials/fb.html'); ?>
+							</a>
+							<a href="tw">
+								<?php include('partials/tw.html'); ?>
+							</a>
+							<a href="ig">
+								<?php include('partials/ig.html'); ?>
+							</a>
+						</div>
+					</div
+				</section>
+			</div>
+			<div class="col col-50">
+				<section class="speaker-panel-photos">
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
 				</section>
 			</div>
 		</article>
