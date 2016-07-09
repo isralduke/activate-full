@@ -35,10 +35,9 @@
 		<img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you">
 	</article>
 
-	
 	<?php include('partials/navbar.html'); ?>
 
-
+	<!-- about -->
 	<article id="about-activate" class="wrap article about">
 		<!-- copy this for partial -->
 		<div class="col col-62">
@@ -87,13 +86,12 @@
 		<!-- end partial -->
 	</article>
 
-	
 	<?php include('partials/navbar.html'); ?>
 
-
+	<!-- speakers -->
 	<article id="speakers" class="wrap article speakers">
 		<!-- copy this for partial -->
-		<div class="col">
+		<div class="col col-50">
 			<section class="section">
 				<h2>speakers</h2>
 			</section>
@@ -101,7 +99,7 @@
 				<div class="speaker-photo">
 					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
-				<div class="speaker-bio">
+				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
@@ -122,7 +120,7 @@
 				<div class="speaker-photo">
 					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
-				<div class="speaker-bio">
+				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
@@ -140,12 +138,12 @@
 				</div>
 			</section>
 		</div>
-		<div class="col">
+		<div class="col col-50">
 			<section class="speaker-bio-wrap red">
 				<div class="speaker-photo">
 					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
-				<div class="speaker-bio">
+				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
@@ -166,7 +164,7 @@
 				<div class="speaker-photo">
 					<img class="speaker-panel-photo" src="/assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
 				</div>
-				<div class="speaker-bio">
+				<div class="section speaker-bio">
 					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
@@ -188,10 +186,9 @@
 		<!-- end partial -->
 	</article>
 
-	
 	<?php include('partials/navbar.html'); ?>
 
-
+	<!-- panel -->
 	<article id="panel" class="wrap article panel">
 		<!-- copy this for partial -->
 		<div class="col col-50">
@@ -265,19 +262,17 @@
 		</div>
 		<div class="col col-50">
 			<section class="speaker-panel-photos">
-				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-				<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
 			</section>
 		</div>
 		<!-- end partial -->
 	</article>
 	
-	
 	<?php include('partials/navbar.html'); ?>
 
-	
 	<div class="bg-color bg-powder">
 		<article id="venue" class="wrap article venue">
 			<section class="section">
@@ -291,10 +286,9 @@
 		</article>
 	</div>
 	
-	
 	<?php include('partials/navbar.html'); ?>
 	
-
+	<!-- sponsors -->
 	<div class="bg-color bg-grey">
 		<article id="sponsors" class="wrap article sponsors">
 			<section class="section">
@@ -347,9 +341,7 @@
 		</article>
 	</div>
 
-
 	<?php include('partials/navbar.html'); ?>
-
 
 	<div class="bg-color bg-indigo">
 		<article id="organizers" class="wrap article organizers">
@@ -394,13 +386,10 @@
 						<h4>isral duke</h4>
 						<p>stun design</p>
 						<div class="speaker-socials">
-							<a href="fb">
-								<?php include('partials/fb.html'); ?>
-							</a>
-							<a href="tw">
+							<a href="//www.twitter.com/isralduke" target="_blank">
 								<?php include('partials/tw.html'); ?>
 							</a>
-							<a href="ig">
+							<a href="//www.instagram.com/isralduke" target="_blank">
 								<?php include('partials/ig.html'); ?>
 							</a>
 						</div>
@@ -409,9 +398,9 @@
 			</div>
 			<div class="col col-50">
 				<section class="speaker-panel-photos">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+					<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+					<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+					<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
 				</section>
 			</div>
 		</article>
