@@ -4,10 +4,8 @@ module.exports = function(grunt){
 	require('load-grunt-tasks')(grunt);
 	var jpegRecompress = require('imagemin-jpeg-recompress');
 	
-	grunt.loadNpmTasks('grunt-ftpush');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-git');
 	grunt.loadNpmTasks('grunt-deployments');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -27,22 +25,6 @@ module.exports = function(grunt){
 				'quotmark':'single'
 			},
 			all:['Gruntfile.js','app/js/script.js']
-		},
-
-		ftpush:{
-			build:{
-				auth:{
-					host:'',
-					port:21,
-					authKey:'key1' // found in .ftppass
-				},
-				// ============= Change "projectdirectory"
-				// src:'/Applications/AMPPS/www/projectdirectory/',
-				// dest:'/projectdirectory.com/',
-				exclusions:['*/.DS_Store','.DS_Store','Archive.zip','.git','Gruntfile.js','node_modules','*.sql'],
-				simple:true,
-				useList:true
-			}
 		},
 
 		less:{
@@ -113,11 +95,7 @@ module.exports = function(grunt){
 				options:{
 					livereload:true
 				}
-			},
-			// commit:{
-			// 	files:['.git/logs/HEAD'],
-			// 	tasks:['imagemin']
-			// }
+			}
 		}
 
 	});
