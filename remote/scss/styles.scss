@@ -604,11 +604,6 @@ input {
 			}
 		}
 	}
-	.speaker-panel-photos {
-		img.panel-photo {
-			
-		}
-	}
 }
 @media screen and ( min-width: 1024px ) {
 
@@ -640,6 +635,11 @@ input {
 		justify-content: flex-start;
 		align-items: flex-start;
 	}	
+	.speaker-panel-photos {
+		img.panel-photo {
+			width: 50%;
+		}
+	}
 }
 @media screen and ( min-width: 1280px ) {
 	.speakers {
