@@ -29,10 +29,19 @@
 
 	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/3e1612c7-37ae-49f9-b020-c52a55c407de.css"/>
 	<link rel="stylesheet" href="css/styles.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>		
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>		
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineLite.min.js"></script>
 </head>
 <body>
 	<article id="rocket" class="article rocket">
-		<img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you">
+		<!-- <img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you"> -->
+
+		<div class="animate">		
+			<object id="rocket-svg" type="image/svg+xml" data="assets/img/rocket.svg" class="logo logo-rocket animate">		
+				<img src="assets/img/rocket.png" alt="activate rocket is ready to launch you"/>		
+			</object>		
+		</div>
 	</article>
 
 	<?php include('partials/navbar.html'); ?>
@@ -85,8 +94,6 @@
 		</div>
 		<!-- end partial -->
 	</article>
-
-	<?php include('partials/navbar.html'); ?>
 
 	<!-- speakers -->
 	<article id="speakers" class="wrap article speakers">
@@ -186,8 +193,6 @@
 		<!-- end partial -->
 	</article>
 
-	<?php include('partials/navbar.html'); ?>
-
 	<!-- panel -->
 	<article id="panel" class="wrap article panel">
 		<!-- copy this for partial -->
@@ -270,8 +275,6 @@
 		</div>
 		<!-- end partial -->
 	</article>
-	
-	<?php include('partials/navbar.html'); ?>
 
 	<div class="bg-color bg-powder">
 		<article id="venue" class="wrap article venue">
@@ -285,8 +288,6 @@
 			</section>
 		</article>
 	</div>
-	
-	<?php include('partials/navbar.html'); ?>
 	
 	<!-- sponsors -->
 	<div class="bg-color bg-grey">
@@ -340,8 +341,6 @@
 			</div>
 		</article>
 	</div>
-
-	<?php include('partials/navbar.html'); ?>
 
 	<div class="bg-color bg-indigo">
 		<article id="organizers" class="wrap article organizers">
@@ -408,7 +407,7 @@
 	
 	<script src="js/vendor/min/svg-inject.min.js"></script>
 	<script src="js/vendor/min/smooth-scroll.min.js"></script>
-	<script src="js/activations.min.js"></script>
+	<script src="js/activations.js"></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
