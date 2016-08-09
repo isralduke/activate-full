@@ -2,69 +2,50 @@
 /* back to top scrolling */
 // ==============================================
 setTimeout(function(){
-		var offset = $("#nav").offset().top;
-		console.log(offset);
-		var duration = 500;
 
-		var scrolltop = $(document).scrollTop();
+	var offset = $("#nav").offset().top;
+	var duration = 500;
 
-		var bodyHeight = $('body').outerHeight();
-		var bottomHeight = $('#bottom-footer').outerHeight();
-		var pageHeight	= bodyHeight - bottomHeight;
+	$(window).scroll(function() {
+		console.log('scroll');
+		if ($(this).scrollTop() > offset) {
+			$('#nav').addClass('on');
+			$('.about').addClass('padding');
+			console.log('nav');
+		} else {
+			$('#nav').removeClass('on');
+			$('.about').removeClass('padding');
+		}
+	});
 
-		$(window).scroll(function() {
-			console.log('scroll');
-			if ($(this).scrollTop() > offset) {
-				$('#nav').addClass('on');
-				$('.about').addClass('padding');
-				console.log('nav');
-			} else {
-				$('#nav').removeClass('on');
-				$('.about').removeClass('padding');
-			}
-
-			if  (scrolltop >= pageHeight) {
-		        $('#nav').addClass('abs-stmaadbox');
-		    } else {
-		        $('.about').addClass('fix-stmaadbox');
-		    }
-		});
-		
-		// $('#back-to-top').click(function(e) {
-		// 	e.preventDefault();
-		// 	$('html, body').animate({scrollTop: 0}, duration);
-		// 	return false;
-		// })
 },1000);
 
 
-// // ==========================
-// /* SVG Rocket */
-// // ==========================
+// ==========================
+/* SVG Rocket */
+// ==========================
 
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
-// });
-// var mySVG = document.getElementById("rocket-svg");
+});
+var mySVG = document.getElementById("rocket-svg");
 
-// mySVG.addEventListener("load", function() {
+mySVG.addEventListener("load", function() {
 
-//    var doc = this.getSVGDocument();
+   var doc = this.getSVGDocument();
 
-//    console.log('in it');
+   //SVG vars
+   var flame = doc.getElementById("flame");
 
-//    //SVG vars
-//    var flame = doc.getElementById("flame");
+  //happy tweening!
+  TweenMax.to(flame, .1, {scaleY: '1.4', repeat: -1}, 'start')
+  TweenMax.to(mySVG, .02, { rotation: '+=.4', repeat: -1}, 'start');
+});	
 
-//   //happy tweening!
-//   TweenMax.to(flame, .1, {scaleY: '1.4', repeat: -1}, 'start')
-//   TweenMax.to(mySVG, .02, { rotation: '+=.4', repeat: -1}, 'start');
-// });	
-
-// //bug fix regarding load event not firing consistantly 
-// //(http://stackoverflow.com/questions/34677628/load-event-not-fired-on-safari-when-reloading-page)
-// mySVG.data = mySVG.data;
+//bug fix regarding load event not firing consistantly 
+//(http://stackoverflow.com/questions/34677628/load-event-not-fired-on-safari-when-reloading-page)
+mySVG.data = mySVG.data;
 
 // // ==========================
 // /* Space Particles */
