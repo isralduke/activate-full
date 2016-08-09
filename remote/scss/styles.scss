@@ -118,7 +118,7 @@ img {
 .social-icon {
 	width: 44px; height: 44px;
 	fill: $white;
-	transition: fill $duration $easing;
+	transition: fill $speed $easing;
 	&:hover {
 		fill: $yellow;
 	}
@@ -249,8 +249,11 @@ input {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
 	img.panel-photo {
-		width: 50%;
+		width: 100%;
 	}
 }
 .speaker-panel {
@@ -285,11 +288,12 @@ input {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			padding: $unit*.5 $unit;
-			height: 48px;
+			padding: $unit*.25 $unit*.5;
+			height: 44px;
 			color: $white;
 			text-transform: capitalize;
 			line-height: 1.25;
+			transition: background-color $speed $easing;
 		}
 	}
 	&.menu {
@@ -297,18 +301,49 @@ input {
 		display: flex;
 		flex-flow: row wrap;
 		li {
+			display: none;
 			width: 33.33%;
 			a {
-				background-color: $indigo;	
+				background-color: $indigo;
+				&:hover {
+					background-color: lighten($indigo, 25%);
+				}	
 			}
-			
+			&:first-of-type {
+				a {
+					img {
+						transform: rotate(45deg);
+						transition: transform $speed $easing;
+					}
+					&:hover {
+						img {
+							transform: rotate(0deg) scale(1.5);
+						}
+					}
+				}
+			}
 		}
 	}
 	&.register {
 		order: 0;
+		display: flex;
 		li {
 			a {
 				background-color: $turquoise; color: $white;
+			}
+			span {
+				display: block;
+				height: 2px; width: 100%;
+				background-color: $white;
+				&:nth-of-type(2) {
+					margin: 2px 0;
+				}
+			}
+			&:nth-of-type(1) {
+				flex: 1;
+			}
+			&:nth-of-type(2) {
+				width: 48px;
 			}
 		}
 	}
@@ -408,7 +443,6 @@ input {
 		padding-top: 225px;		
 	}		
 }
-
 @media screen and ( min-width: 600px ) {
 	
 	img {
@@ -546,14 +580,13 @@ input {
 	.nav-items {
 		&.menu {
 			order: 0;	
-			display: flex;
 			flex-flow: row wrap;
 			li {
 				width: unset;
+				display: block;
 				a {
 					background-color: $indigo;	
 				}
-				
 			}
 			li.menu-rocket {
 				width: 64px;
@@ -565,7 +598,15 @@ input {
 				a {
 					background-color: $turquoise; color: $white;
 				}
+				&:nth-child(2) {
+					display: none;
+				}
 			}
+		}
+	}
+	.speaker-panel-photos {
+		img.panel-photo {
+			
 		}
 	}
 }
@@ -598,8 +639,7 @@ input {
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
-	}
-	
+	}	
 }
 @media screen and ( min-width: 1280px ) {
 	.speakers {
@@ -634,5 +674,4 @@ input {
 		margin-left: auto;
 		width: 1280px;
 	}
-	
 }

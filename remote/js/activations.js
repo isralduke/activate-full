@@ -21,14 +21,13 @@ setTimeout(function(){
 },1000);
 
 
+
 // ==========================
 /* SVG Rocket */
 // ==========================
 
 
-$(document).ready(function(){
 
-});
 var mySVG = document.getElementById("rocket-svg");
 
 mySVG.addEventListener("load", function() {
@@ -81,3 +80,10 @@ mySVG.data = mySVG.data;
 // 	return min + Math.floor( Math.random() * (max - min));
 // }
 
+
+$(document).ready(function(){
+	$('#switch').click(function() {
+		$('#navItems li').slideToggle(250);
+		console.log('yo');
+	});
+});

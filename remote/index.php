@@ -295,50 +295,7 @@
 			<section class="section">
 				<h2>sponsors</h2>
 			</section>
-			<div class="col">
-				<section class="sponsor-level sponsor-level-name bg-powder">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/android-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-orange">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/apple-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-yellow">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/github-logo.svg" alt="Sponsor Name Logo">
-				</section>
-			</div>
-			<div class="col">
-				<section class="sponsor-level sponsor-level-name bg-red">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/google-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-powder">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/slack-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-blue">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/twitter-logo.svg" alt="Sponsor Name Logo">
-				</section>
-			</div>
-			<div class="col">
-				<section class="sponsor-level sponsor-level-name bg-powder">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/android-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-turquoise">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/apple-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-yellow">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/github-logo.svg" alt="Sponsor Name Logo">
-				</section>
-			</div>
-			<div class="col">
-				<section class="sponsor-level sponsor-level-name bg-orange">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/google-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-powder">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/slack-logo.svg" alt="Sponsor Name Logo">
-				</section>
-				<section class="sponsor-level sponsor-level-name bg-red">
-					<img class="inject-me sponsor-logo" src="assets/img/logos/twitter-logo.svg" alt="Sponsor Name Logo">
-				</section>
-			</div>
+			<?php include('partials/sponsors.html'); ?>
 		</article>
 	</div>
 
