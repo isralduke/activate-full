@@ -168,6 +168,7 @@ img {
 // --------------------------------
 // about rules
 .about {
+	padding-top: 108px;
 	// padding-bottom: 200px;
 	background-color: $indigo;
 	.col-62 {
@@ -176,6 +177,9 @@ img {
 		justify-content: space-between;
 		background-color: $white;
 	}
+	// &.padding{
+	// 	// padding-top: 108px;
+	// }
 }
 .activate-date {
 	div {
@@ -362,6 +366,23 @@ input {
 	}
 }
 
+#nav{ 
+	position: absolute;
+	width: 100%;
+	transition: all .5s ease;
+	&.on{
+		position: fixed;
+	    top: 0px;
+	    z-index: 1000;
+	    width: 100%;
+	    // padding-top: 0;
+	    // padding-bottom: 0;
+	 //    nav{
+		// 	transform: scale(.95);
+		// }
+	}
+}
+
 // --------------------------------
 // venue rules
 .bg-powder {
@@ -452,6 +473,7 @@ input {
 		display: flex;
 		flex-flow: row;
 		justify-content: space-between;
+		padding-top: 175px;
 	}
 	.col {
 
@@ -538,6 +560,9 @@ input {
 		.col-62 {
 			width: 68%;
 		}
+		// &.padding{
+		// 	padding-top: 178px;
+		// }
 	}
 	.form-inline {
 		display: flex;

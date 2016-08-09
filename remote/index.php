@@ -99,8 +99,7 @@
 		<!-- end partial -->
 	</article>
 
-	
-	<?php include('partials/navbar.html'); ?>
+
 
 
 	<article id="speakers" class="wrap article speakers">
@@ -200,8 +199,6 @@
 		<!-- end partial -->
 	</article>
 
-	
-	<?php include('partials/navbar.html'); ?>
 
 
 	<article id="panel" class="wrap article panel">
@@ -287,7 +284,6 @@
 	</article>
 	
 	
-	<?php include('partials/navbar.html'); ?>
 
 	
 	<div class="bg-color bg-powder">
@@ -303,8 +299,6 @@
 		</article>
 	</div>
 	
-	
-	<?php include('partials/navbar.html'); ?>
 	
 
 	<div class="bg-color bg-grey">
@@ -359,8 +353,6 @@
 		</article>
 	</div>
 
-
-	<?php include('partials/navbar.html'); ?>
 
 
 	<div class="bg-color bg-indigo">

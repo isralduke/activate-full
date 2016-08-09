@@ -1,62 +1,102 @@
-// ==========================
-/* SVG Rocket */
-// ==========================
+// ==============================================
+/* back to top scrolling */
+// ==============================================
+setTimeout(function(){
+		var offset = $("#nav").offset().top;
+		console.log(offset);
+		var duration = 500;
+
+		var scrolltop = $(document).scrollTop();
+
+		var bodyHeight = $('body').outerHeight();
+		var bottomHeight = $('#bottom-footer').outerHeight();
+		var pageHeight	= bodyHeight - bottomHeight;
+
+		$(window).scroll(function() {
+			console.log('scroll');
+			if ($(this).scrollTop() > offset) {
+				$('#nav').addClass('on');
+				$('.about').addClass('padding');
+				console.log('nav');
+			} else {
+				$('#nav').removeClass('on');
+				$('.about').removeClass('padding');
+			}
+
+			if  (scrolltop >= pageHeight) {
+		        $('#nav').addClass('abs-stmaadbox');
+		    } else {
+		        $('.about').addClass('fix-stmaadbox');
+		    }
+		});
+		
+		// $('#back-to-top').click(function(e) {
+		// 	e.preventDefault();
+		// 	$('html, body').animate({scrollTop: 0}, duration);
+		// 	return false;
+		// })
+},1000);
 
 
-$(document).ready(function(){
+// // ==========================
+// /* SVG Rocket */
+// // ==========================
 
-});
-var mySVG = document.getElementById("rocket-svg");
 
-mySVG.addEventListener("load", function() {
+// $(document).ready(function(){
 
-   var doc = this.getSVGDocument();
+// });
+// var mySVG = document.getElementById("rocket-svg");
 
-   console.log('in it');
+// mySVG.addEventListener("load", function() {
 
-   //SVG vars
-   var flame = doc.getElementById("flame");
+//    var doc = this.getSVGDocument();
 
-  //happy tweening!
-  TweenMax.to(flame, .1, {scaleY: '1.4', repeat: -1}, 'start')
-  TweenMax.to(mySVG, .02, { rotation: '+=.4', repeat: -1}, 'start');
-});	
+//    console.log('in it');
 
-//bug fix regarding load event not firing consistantly 
-//(http://stackoverflow.com/questions/34677628/load-event-not-fired-on-safari-when-reloading-page)
-mySVG.data = mySVG.data;
+//    //SVG vars
+//    var flame = doc.getElementById("flame");
 
-// ==========================
-/* Space Particles */
-// ==========================
+//   //happy tweening!
+//   TweenMax.to(flame, .1, {scaleY: '1.4', repeat: -1}, 'start')
+//   TweenMax.to(mySVG, .02, { rotation: '+=.4', repeat: -1}, 'start');
+// });	
 
-var svgNS = "http://www.w3.org/2000/svg";  
+// //bug fix regarding load event not firing consistantly 
+// //(http://stackoverflow.com/questions/34677628/load-event-not-fired-on-safari-when-reloading-page)
+// mySVG.data = mySVG.data;
 
-var total = 25;
-var w = $("body").width();
-var h = $('body').height();
+// // ==========================
+// /* Space Particles */
+// // ==========================
+
+// var svgNS = "http://www.w3.org/2000/svg";  
+
+// var total = 25;
+// var w = $("body").width();
+// var h = $('body').height();
  
-for (i=0; i<total; i++){ 
-	var rect = document.createElementNS(svgNS, 'rect');
-	rect.setAttributeNS(null, 'height', 25);
-	rect.setAttributeNS(null, 'width', 25);
-	rect.setAttributeNS(null,"class","pixel"); 
-	document.getElementById("mySVG").appendChild(rect);  
-	TweenMax.set($(".pixel")[i],{x:Random(w),y:0 ,scale:Random(0.5)+0.5,fill:"rgba(255,255,255,.15)"});
+// for (i=0; i<total; i++){ 
+// 	var rect = document.createElementNS(svgNS, 'rect');
+// 	rect.setAttributeNS(null, 'height', 25);
+// 	rect.setAttributeNS(null, 'width', 25);
+// 	rect.setAttributeNS(null,"class","pixel"); 
+// 	document.getElementById("mySVG").appendChild(rect);  
+// 	TweenMax.set($(".pixel")[i],{x:Random(w),y:0 ,scale:Random(0.5)+0.5,fill:"rgba(255,255,255,.15)"});
 	
-	animm($(".pixel")[i]);
-}
+// 	animm($(".pixel")[i]);
+// }
  
-function animm(elm){   
-	TweenMax.to(elm,Random(15)+3,{y:h,ease:Linear.easeNone,repeat:-1, delay:-5});
-	TweenMax.to(elm,Random(1)+1.5,{fill:"rgba(255,255,255,.05)",repeat:-1,yoyo:true,ease:Sine.easeInOut})
-};
+// function animm(elm){   
+// 	TweenMax.to(elm,Random(15)+3,{y:h,ease:Linear.easeNone,repeat:-1, delay:-5});
+// 	TweenMax.to(elm,Random(1)+1.5,{fill:"rgba(255,255,255,.05)",repeat:-1,yoyo:true,ease:Sine.easeInOut})
+// };
 
-function Random (max) {
-	return Math.random()*max;
-}
+// function Random (max) {
+// 	return Math.random()*max;
+// }
 
-function random(min, max) {
-	return min + Math.floor( Math.random() * (max - min));
-}
+// function random(min, max) {
+// 	return min + Math.floor( Math.random() * (max - min));
+// }
 
