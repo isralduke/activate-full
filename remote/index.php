@@ -34,6 +34,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineLite.min.js"></script>
 </head>
 <body>
+	<!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 	<article id="rocket" class="article rocket">
 		<!-- <img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you"> -->
 
