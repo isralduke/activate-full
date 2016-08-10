@@ -84,6 +84,5 @@ mySVG.data = mySVG.data;
 $(document).ready(function(){
 	$('#switch').click(function() {
 		$('#navItems li').slideToggle(250);
-		console.log('yo');
 	});
 });

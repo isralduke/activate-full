@@ -273,8 +273,7 @@ input {
 }
 .nav {
 	background-color: $white;
-	padding: $unit 0; 
-
+	padding: $unit; 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -290,24 +289,27 @@ input {
 			align-items: center;
 			padding: $unit*.25 $unit*.5;
 			height: 44px;
-			color: $white;
+			background-color: $indigo; color: $white;
 			text-transform: capitalize;
 			line-height: 1.25;
 			transition: background-color $speed $easing;
+			&:hover {
+				cursor: pointer;
+			}
 		}
 	}
 	&.menu {
 		order: 1;	
 		display: flex;
-		flex-flow: row wrap;
+		flex-wrap: wrap;
 		li {
 			display: none;
 			width: 33.33%;
 			a {
-				background-color: $indigo;
+				padding: $unit;
 				&:hover {
-					background-color: lighten($indigo, 25%);
-				}	
+					background-color: lighten($indigo, 15%);
+				}
 			}
 			&:first-of-type {
 				a {
@@ -317,7 +319,7 @@ input {
 					}
 					&:hover {
 						img {
-							transform: rotate(0deg) scale(1.5);
+							transform: rotate(0);
 						}
 					}
 				}
@@ -478,20 +480,6 @@ input {
 			width: 62%;
 		}
 	}
-	.nav-items {
-		&.menu {
-			flex-flow: row wrap;
-			li {
-				width: calc(20% - 12.8px );
-				&.menu-rocket {
-					width: 64px;
-				}
-				a {
-					background-color: $indigo;	
-				}
-			}
-		}
-	}
 	.venue {
 		display: flex;
 		flex-direction: row;
@@ -523,7 +511,7 @@ input {
 	.sponsors {
 		.col {
 			width: 25%;
-			background-color: purple;
+			background-color: $indigo;
 		}
 	}
 	.organizers {
@@ -579,24 +567,28 @@ input {
 	}
 	.nav-items {
 		&.menu {
-			order: 0;	
-			flex-flow: row wrap;
+			order: 0;
 			li {
-				width: unset;
 				display: block;
+				width: 16.667%;
 				a {
-					background-color: $indigo;	
+					background-color: $indigo;
+					padding: $unit*.5 $unit;
 				}
-			}
-			li.menu-rocket {
-				width: 64px;
 			}
 		}
 		&.register {
 			order: 1;
+			display: block;
 			li {
 				a {
-					background-color: $turquoise; color: $white;
+					background-color: darken($turquoise, 10%); color: $white;
+					transition: background-color $speed $easing, color $speed $easing;
+					padding: $unit*.5 $unit;
+					&:hover {
+						background-color: lighten($turquoise, 5%);
+						cursor: pointer;
+					}
 				}
 				&:nth-child(2) {
 					display: none;
@@ -655,18 +647,6 @@ input {
 	}
 	.speaker-bio {
 		width: 62%;
-	}
-	.sponsors {
-		.col {
-			&:nth-child(2) {
-				transform: translateY( $unit );
-				z-index: 100;
-			}
-			&:nth-child(4) {
-				transform: translateY( $unit );
-				z-index: 100;
-			}
-		}
 	}
 	.wrap {
 		position: relative;
