@@ -363,12 +363,15 @@ input {
 	transition: all .5s ease;		
 	&.on{		
 		position: fixed;		
-	    bottom: 0px;		
-	    z-index: 1000;		
-	    width: 100%;	
-	    @media screen and ( min-width: 768px ) {
-	    	top: 0; bottom: unset;
-	    }
+				
+		z-index: 1000;		
+		width: 100%;	
+		@media screen and ( max-width: 767px ) {
+			bottom: 0px;
+		}
+		@media screen and ( min-width: 768px ) {
+			top: 0; bottom: unset;
+		}
 	}		
 }
 
