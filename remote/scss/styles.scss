@@ -252,8 +252,14 @@ input {
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
+	background-color: $red;
 	img.panel-photo {
 		width: 100%;
+		filter: grayscale(100%);
+		transition: filter $speed $easing;
+		&:hover {
+			filter: grayscale(0%);
+		}
 	}
 }
 .speaker-panel {
@@ -357,9 +363,12 @@ input {
 	transition: all .5s ease;		
 	&.on{		
 		position: fixed;		
-	    top: 0px;		
+	    bottom: 0px;		
 	    z-index: 1000;		
 	    width: 100%;	
+	    @media screen and ( min-width: 768px ) {
+	    	top: 0; bottom: unset;
+	    }
 	}		
 }
 
@@ -585,6 +594,7 @@ input {
 					background-color: darken($turquoise, 10%); color: $white;
 					transition: background-color $speed $easing, color $speed $easing;
 					padding: $unit*.5 $unit;
+					text-align: center;
 					&:hover {
 						background-color: lighten($turquoise, 5%);
 						cursor: pointer;
@@ -630,6 +640,7 @@ input {
 	.speaker-panel-photos {
 		img.panel-photo {
 			width: 50%;
+			filter: grayscale(100%);
 		}
 	}
 }
