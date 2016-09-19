@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="put a description here">
+	<meta name="description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference.">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>Activate</title>
+	<title>Activate Conference 2016 - A Student Conference for All Thing Interactive</title>
 	<!-- Disable tap highlight on IE -->
 	<meta name="msapplication-tap-highlight" content="no">
 	<?php include('partials/faves.html'); ?>
@@ -13,16 +13,16 @@
 	<!-- fb OG markup -->
 	<meta property="og:url" content="http://www.activateconf.com/" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Home" />
-	<meta property="og:description" content="description goes here" />
-	<meta property="og:image" content="http://www.activateconf.com/image.png" />
+	<meta property="og:title" content="Activate Conference 2016 - A Student Conference for All Thing Interactive" />
+	<meta property="og:description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference." />
+	<meta property="og:image" content="http://www.activateconf.com/assets/img/og-image.png" />
 
 	<!-- twitter card markup -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@activ8conf">
 	<meta name="twitter:creator" content="@activ8conf">
-	<meta name="twitter:title" content="Home">
-	<meta name="twitter:description" content="description goes here">
+	<meta name="twitter:title" content="Activate Conference 2016 - A Student Conference for All Thing Interactive">
+	<meta name="twitter:description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference.">
 	<meta name="twitter:image" content="http://www.activateconf.com/">
 	<meta name="author" content="Lynsey Gwin Jordan, Quinton Jason Jr, and Isral C. Duke" />
 	<link type="text/plain" rel="author" href="/humans.txt" />
@@ -38,9 +38,12 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 	<article id="rocket" class="article rocket">
-		<!-- <img class="logo logo-rocket" src="assets/img/rocket.svg" alt="activate rocket is ready to launch you"> -->
-
-		<div class="animate">		
+		<div class="row">
+			<h3>thursday • november 3rd, 2016<br/>creative bloc • baton rouge, la</h3>
+            <h1>activate</h1>
+            <h2>a student conference for all things interactive</h2>
+        </div>
+		<div class="animate row">		
 			<object id="rocket-svg" type="image/svg+xml" data="assets/img/rocket.svg" class="logo logo-rocket animate">		
 				<img src="assets/img/rocket.png" alt="activate rocket is ready to launch you"/>		
 			</object>		
@@ -61,7 +64,7 @@
 				<li><a data-scroll href="#organizers">organizers</a></li>
 			</ul>
 			<ul class="nav-items register">
-				<li><a id="btn-register" class="">register now</a></li>
+				<li><a id="btn-register" class="" href="http://www.eventbrite.com/e/activate-conference-tickets-26188841530?aff=fullsite" target="_blank">register now</a></li>
 				<li><a id="switch" class="">
 					<span></span>
 					<span></span>
@@ -77,16 +80,17 @@
 		<div class="col col-62">
 			<section class="section bg-white activate-info">
 				<h2 class="text-red">about activate</h2>
-				<p class="lead-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. </p>
-				<p>Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+				<p class="lead-in">Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference.</p>
+				<p>From websites to mobile apps, wearables to smart devices, social media to virtual reality and beyond. Activate will inspire you to get next-level with your career. Explore the possibilities of UI/UX design, web development, and the exciting future of an interactive world.</p>
+					<p>We’re looking for self-starters who want to ignite their future beyond the classroom. We’ll have speakers and panelists from the growing interactive community in Baton Rouge talking about their careers, answering your questions, and giving you advice on how to get an edge on the future of design and development. Plus, we’ll give you the resources you need to prepare for a professional career in the interactive industry. Don’t miss this opportunity to get a jump start on your future.</p>
 			</section>
 			<section class="section bg-light-powder activate-subscribe">
 				<h3 class="text-blue">stay updated</h3>
 				<div class="form-wrap">
-					<form action="">
-						<div class="form-inline">
-							<input class="form-control" type="email">
-							<button class="btn btn-text-only" type="submit">subscribe</button>
+<form action="//activateconf.us12.list-manage.com/subscribe/post?u=1698009cda135b7f9480768e9&amp;id=466d37a6e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class='form'>						<div class="form-inline">
+							<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="your email address" required>
+                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1698009cda135b7f9480768e9_466d37a6e5" tabindex="-1" value=""></div>
+							<button class="btn btn-text-only" type="submit" id="mc-embedded-subscribe" >subscribe</button>
 						</div>
 					</form>
 				</div>
@@ -96,22 +100,22 @@
 			<section class="section bg-red activate-date">
 				<div>
 					<h3 class="text-white">date</h3>
-					<p class="text-white">day, month date, year<br /> time &ndash; time PM</p>
+					<p class="text-white">Thursday, November 3rd, 2016<br /> 6:00 &ndash; 9:30 PM</p>
 					<button class="btn btn-has-icon">add calendar event</button>
 				</div>
 				<div>
 					<h3 class="text-white">venue</h3>
-					<p class="text-white">venue name <br /> address1 <br />address 2<br /> city, state, zip</p>
-					<button class="btn btn-has-icon">more about venue</button>
+					<p class="text-white">Creative Bloc <br /> 804 Main St.<br />Baton Rouge, LA 70802</p>
+					<p><a class="btn btn-has-icon" href="#venue">more about venue</a></p>
 				</div>
 				<div>
-					<a href="fb">
+					<a href="https://www.facebook.com/activ8conf/" target="_blank">
 						<?php include('partials/fb.html'); ?>
 					</a>
-					<a href="tw">
+					<a href="https://twitter.com/activ8conf" target="_blank">
 						<?php include('partials/tw.html'); ?>
 					</a>
-					<a href="ig">
+					<a href="https://www.instagram.com/activ8conf/" target="_blank">
 						<?php include('partials/ig.html'); ?>
 					</a>
 				</div>
@@ -129,10 +133,10 @@
 			</section>
 			<section class="speaker-bio-wrap blue">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/justin-obney.jpg" alt="Justin Obney" />
 				</div>
 				<div class="section speaker-bio">
-					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
+					<h3 class="speaker-name">Justin Obney <br><span class="speaker-name-aux">Software Developer</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
 							<?php include('partials/fb.html'); ?>
@@ -144,16 +148,18 @@
 							<?php include('partials/ig.html'); ?>
 						</a>
 					</div>
-					<h4>presentation title</h4>
-					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+					<h4>Free Samples to Front-end</h4>
+					<p class="speaker-summary"> Justin Obney will be joining us to speak about his journey to a development career, the importance of self-teaching and his passion for front-end dev.</p>
 				</div>
 			</section>
 			<section class="speaker-bio-wrap turquoise">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/j-hooper.jpg" alt="Jonathan Hooper" />
+                    
 				</div>
-				<div class="section speaker-bio">
-					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
+			  <div class="section speaker-bio">
+					<h3 class="speaker-name">Jonathan Hooper <br>
+					  <span class="speaker-name-aux">Mobile Developer</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
 							<?php include('partials/fb.html'); ?>
@@ -165,18 +171,17 @@
 							<?php include('partials/ig.html'); ?>
 						</a>
 					</div>
-					<h4>presentation title</h4>
-					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+				<h4>Welcome to Swift</h4>
+				  <p class="speaker-summary">This talk provides a swift introduction to Apple's new programming language for iOS, watchOS, MacOS, and tvOS. We'll review some of Swift's primary language features before diving into Xcode to demo the language by building a bare bones iOS app. You'll walk away with some basic knowledge about the Swift ecosystem and, more importantly, insight into where to look to learn more.</p>
 				</div>
 			</section>
 		</div>
-		<div class="col col-50">
-			<section class="speaker-bio-wrap red">
+		<div class="col col-50"><section class="speaker-bio-wrap red">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/quinton-jason-jr-activate-conference-organizer.jpg" alt="Quinton Jason Jr" />
 				</div>
 				<div class="section speaker-bio">
-					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
+					<h3 class="speaker-name">Quinton Jason <br><span class="speaker-name-aux">Interactive Director</span></h3>
 					<div class="speaker-socials">
 						<a href="fb">
 							<?php include('partials/fb.html'); ?>
@@ -188,16 +193,17 @@
 							<?php include('partials/ig.html'); ?>
 						</a>
 					</div>
-					<h4>presentation title</h4>
-					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+					<h4>Motion and the Web</h4>
+					<p class="speaker-summary">Motion is all around us. It draws our attention even when we try to avoid it. Using motion on the web is a perfect way to keep your visitors engaged in your message. Let’s harness the power of motion on the web, whether to improve decision making, enhance usability, or make your sites stand out from the crowd.</p>
 				</div>
 			</section>
+			
 			<section class="speaker-bio-wrap powder">
 				<div class="speaker-photo">
-					<img class="speaker-panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="speaker name speaker subject" />
+					<img class="speaker-panel-photo" src="assets/img/headshots/speaker-2.png" alt="speaker name speaker subject" />
 				</div>
 				<div class="section speaker-bio">
-					<h3 class="speaker-name">first last <span class="speaker-name-aux">llorem ipsum</span></h3>
+					<h3 class="speaker-name">Carla Buckner<br><span class="speaker-name-aux">Senior Data Analyst</span></h3><!--
 					<div class="speaker-socials">
 						<a href="fb">
 							<?php include('partials/fb.html'); ?>
@@ -208,9 +214,9 @@
 						<a href="ig">
 							<?php include('partials/ig.html'); ?>
 						</a>
-					</div>
-					<h4>presentation title</h4>
-					<p class="speaker-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+					</div>-->
+					<h4>My Tech Journey</h4>
+					<p class="speaker-summary">Description coming soon.</p>
 				</div>
 			</section>
 		</div>
@@ -226,11 +232,24 @@
 				<h2>panel</h2>
 			</section>
 			<section class="section">
-				<h3>ask the experts</h3>
+				<h3>ask the experts <br><span class="speaker-name-aux">Interactive Design</span></h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
 				<div class="speaker-panel">
-					<h4>first last</h4>
-					<p>expertise area</p>
+					<h4>Christine Maggi</h4>
+					<p>UX/UI Designer</p>
+					<div class="speaker-socials">
+						
+						<a href="tw" href="https://twitter.com/christinemaggi" target="_blank">
+							<?php include('partials/tw.html'); ?>
+						</a>
+						<a href="ig">
+							<?php include('partials/ig.html'); ?>
+						</a>
+					</div>
+				</div>
+				<div class="speaker-panel">
+					<h4>Brian Rivet</h4>
+					<p>Web Design Instructor</p>
 					<div class="speaker-socials">
 						<a href="fb">
 							<?php include('partials/fb.html'); ?>
@@ -244,37 +263,24 @@
 					</div>
 				</div>
 				<div class="speaker-panel">
-					<h4>first last</h4>
-					<p>expertise area</p>
+					<h4>Lynsey Gwin</h4>
+					<p>Interactive Designer &amp; Developer</p>
 					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
-						</a>
-						<a href="tw">
-							<?php include('partials/tw.html'); ?>
-						</a>
-						<a href="ig">
+						
+						<a href="https://www.instagram.com/lynseydesign/" target="_blank">
 							<?php include('partials/ig.html'); ?>
 						</a>
+						<a href="https://twitter.com/lynseydesign" target="_blank">
+							<?php include('partials/tw.html'); ?>
+						</a>
+                        <a href="https://www.linkedin.com/in/lynseygwin" target="_blank">
+							<?php include('partials/li.html'); ?>
+						</a>
+						
 					</div>
 				</div>
 				<div class="speaker-panel">
-					<h4>first last</h4>
-					<p>expertise area</p>
-					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
-						</a>
-						<a href="tw">
-							<?php include('partials/tw.html'); ?>
-						</a>
-						<a href="ig">
-							<?php include('partials/ig.html'); ?>
-						</a>
-					</div>
-				</div>
-				<div class="speaker-panel">
-					<h4>first last</h4>
+					<h4>Mollie Williams</h4>
 					<p>expertise area</p>
 					<div class="speaker-socials">
 						<a href="fb">
@@ -292,21 +298,26 @@
 		</div>
 		<div class="col col-50">
 			<section class="speaker-panel-photos">
-				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
-				<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/christine-maggi.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/panel-2.png" alt=""><img class="panel-photo" src="assets/img/headshots/lynsey-gwin.jpg" alt=""><img class="panel-photo" src="assets/img/headshots/mollie-williams.jpg" alt="">
 			</section>
 		</div>
 		<!-- end partial -->
 	</article>
 
-	<div class="bg-color bg-powder">
-		<article id="venue" class="wrap article venue">
+	<!-- venue -->
+	<div class="bg-color bg-powder article-outer">
+		<article id="venue" class="wrap venue">
+        	<section class="section no-pad">
+            <img src="assets/img/creative-bloc.jpg" width="600" height="600" alt=""/>
+            </section>
 			<section class="section">
 				<h2>venue</h2>
+                <p>Creative Bloc <br /> 804 Main St.<br />Baton Rouge, LA 70802</p>
+					<p><a class="btn btn-has-icon" href="https://www.google.com/maps?ll=30.451467,-91.181695&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Creative+Bloc+804+Main+St+Baton+Rouge,+LA+70802@30.4514669,-91.18169549999999" target="_blank">Get Directions</a></p>
+                    <p><a class="btn btn-has-icon" href="#venue">Parking Information</a></p>
 			</section>
-			<section class="section">
+			<section class="section no-pad">
 				<div class='embed-container'>
 					<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.457866162031!2d-91.18388954926624!3d30.45146688164646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0dd10e52027%3A0x7eb56487c2972f32!2sCreative+Bloc!5e0!3m2!1sen!2sus!4v1467584173057' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
 				</div>
@@ -318,7 +329,7 @@
 	<div class="bg-color bg-grey">
 		<article id="sponsors" class="wrap article sponsors">
 			<section class="section">
-				<h2>sponsors</h2>
+				<h2>sponsors &amp; partners</h2>
 			</section>
 			<?php include('partials/sponsors.html'); ?>
 		</article>
@@ -331,8 +342,8 @@
 					<h2>organizers</h2>
 				</section>
 				<section class="section">
-					<h3>activating your reach</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+					<!--<h3>activating your reach</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>-->
 					<!-- lynsey -->
 					<div class="speaker-panel">
 						<h4>lynsey jordan gwin</h4>
@@ -382,11 +393,20 @@
 			</div>
 			<div class="col col-50">
 				<section class="speaker-panel-photos">
-					<img class="panel-photo" src="assets/img/headshots/isral-c-duke.jpg" alt="Lynsey Jordan Gwin, Designer, Front End Developer, Activate Conference Organizer">
+					<img class="panel-photo" src="assets/img/headshots/lynsey-gwin.jpg" alt="Lynsey Jordan Gwin, Designer, Front End Developer, Activate Conference Organizer">
 					<img class="panel-photo" src="assets/img/headshots/quinton-jason-jr-activate-conference-organizer.jpg" alt="Quinton Jason, Jr., Front End Developer, SVG Animator, Activate Conference Organizer">
 					<img class="panel-photo" src="assets/img/headshots/isral-duke-activate-conference-organizer.jpg" alt="Isral Duke, Designer, Front End Developer, Activate Conference Organizer">
 				</section>
 			</div>
+		</article>
+	</div>
+    
+    <div class="bg-color bg-powder article-outer">
+		<article class="wrap cta">
+			<section class="section text-center">
+				<h2>activate your future</h2>
+                <p><a class="btn btn-lg" href="http://www.eventbrite.com/e/activate-conference-tickets-26188841530?aff=fullsite" target="_blank">Register Now</a></p>
+			</section>
 		</article>
 	</div>
 	

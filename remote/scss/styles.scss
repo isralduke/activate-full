@@ -109,7 +109,7 @@ img {
 		width: 48px; height: 48px;
 	}
 	&.sponsor-logo {
-		max-width: 100px;
+		max-width: 170px;
 	}
 	&.speaker-panel-photo {
 		width: 100%;
@@ -129,11 +129,28 @@ img {
 	height: 48px;
 	@extend .text-capitalize;
 	padding: $unit*.5 $unit;
+	&:hover{
+		background-color:darken($turquoise,10%);
+	}
+	&-lg{
+		padding:$unit*1.5 $unit*1.5;
+		font-size:$unit*1.25;
+	}
 }
 .icon {
 	&-social {
 
 	}
+}
+.article{
+	padding-top:175px;
+	&-outer{
+		padding:100px 0;
+		margin-top:175px;
+	}
+}
+.no-pad{
+	padding:0;
 }
 // --------------------------------
 // basic section styles
@@ -150,8 +167,31 @@ img {
 	background-size: contain;
 	padding: 1em 0;
 	overflow: hidden;
+	display:flex;
+	flex-direction:row; 
+	justify-content:space-around;
+	align-items:center;
 	@extend .text-center;
 	// margin-bottom: 200px;
+	h1 {
+		font-size: $unit * 7;
+		margin-bottom: $unit;
+	}
+	
+h2 {
+	color: $yellow;
+	font-size: $unit * 1.25;
+	margin: 0 0 $unit * 2;
+
+}
+h3 {
+	color: $powder;
+	text-transform: uppercase;
+	margin: 0 0 $unit * 2;
+	font-size:$unit;
+	line-height:$unit * 1.25;
+}
+
 }
 #mySVG{		
 	width: 100%;		
@@ -160,7 +200,7 @@ img {
 			
 }		
 #rocket-svg{		
-	width: 230px;		
+	width: 330px;		
 	transform: rotate(-8deg);		
 }
 // --------------------------------
@@ -199,8 +239,6 @@ input {
 // speaker rules
 .speakers {
 	background-color: $indigo;
-	padding-top: $unit*5;
-	padding-bottom: $unit*5;
 }
 .speaker-bio-wrap {
 	&.blue {
@@ -252,14 +290,9 @@ input {
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-	background-color: $red;
 	img.panel-photo {
 		width: 100%;
-		filter: grayscale(100%);
-		transition: filter $speed $easing;
-		&:hover {
-			filter: grayscale(0%);
-		}
+		transition: all $speed $easing;
 	}
 }
 .speaker-panel {
@@ -278,8 +311,7 @@ input {
 .nav, .nav-items {
 }
 .nav {
-	background-color: $white;
-	padding: $unit; 
+	padding: $unit 0; 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -319,6 +351,7 @@ input {
 			}
 			&:first-of-type {
 				a {
+					background-color: darken($indigo, 5%);
 					img {
 						transform: rotate(45deg);
 						transition: transform $speed $easing;
@@ -391,14 +424,18 @@ input {
 	position: absolute; top: 0; left: 0; 
 	width: 100%; height: 100%; 
 }
-.venue {
+.venue,.cta {
 	section {
-		&:nth-child(1) {
+		&:nth-child(2) {
 			background-color: $white;
 			align-self: flex-start;
 		}
 		h2 {
 			color: $red;
+		}
+		img{
+			width:100%;
+			height:auto;
 		}
 	}
 }
@@ -428,6 +465,7 @@ input {
 	&:not(:last-of-type) {
 		//margin-bottom: $unit;
 	}
+	
 }
 
 // --------------------------------
@@ -498,10 +536,13 @@ input {
 		justify-content: space-between;
 		section {
 			&:nth-child(1) {
-				width: 38%;
+				width:25%;
 			}
 			&:nth-child(2) {
-				width: 62%;
+				width: 40%;
+			}
+			&:nth-child(3) {
+				width: 60%;
 			}
 			h2 {
 				color: $red;
@@ -552,6 +593,9 @@ input {
 	}
 	.section {
 		padding: $unit*2;
+		&.no-pad{
+			padding:0;
+		}
 	}
 	.about {
 
@@ -596,7 +640,7 @@ input {
 				a {
 					background-color: darken($turquoise, 10%); color: $white;
 					transition: background-color $speed $easing, color $speed $easing;
-					padding: $unit*.5 $unit;
+					padding: $unit*.5 $unit*2;
 					text-align: center;
 					&:hover {
 						background-color: lighten($turquoise, 5%);
@@ -620,6 +664,7 @@ input {
 	h {
 		&2 {
 			font-size: 72px;
+			line-height:$unit * 5;
 		}
 	}
 	.speakers {
