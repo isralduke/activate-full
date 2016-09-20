@@ -294,8 +294,8 @@
 	</article>
 
 	<!-- venue -->
-	<div class="bg-color bg-powder article-outer">
-		<article id="venue" class="wrap venue">
+	<div id="venue" class="bg-color bg-powder article-outer">
+		<article class="wrap venue">
         	<section class="section no-pad">
             <img src="assets/img/creative-bloc.jpg" width="600" height="600" alt=""/>
             </section>
