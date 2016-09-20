@@ -475,7 +475,7 @@ img.speaker-panel-photo {
   .btn:hover {
     background-color: #0e8287; }
   .btn-lg {
-    padding: 30px 30px;
+    padding: 30px 40px;
     font-size: 25px; }
 
 .article {
@@ -697,6 +697,11 @@ input {
 .venue section img, .cta section img {
   width: 100%;
   height: auto; }
+
+.cta section {
+  background-color: white; }
+.cta p {
+  line-height: 90px; }
 
 .sponsors {
   display: flex;

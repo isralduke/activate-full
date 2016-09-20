@@ -133,7 +133,7 @@ img {
 		background-color:darken($turquoise,10%);
 	}
 	&-lg{
-		padding:$unit*1.5 $unit*1.5;
+		padding:$unit*1.5 $unit*2;
 		font-size:$unit*1.25;
 	}
 }
@@ -437,6 +437,15 @@ input {
 			width:100%;
 			height:auto;
 		}
+	}
+}
+.cta{
+	section{
+		background-color:white;
+		
+	}
+	p{
+		line-height:90px;
 	}
 }
 

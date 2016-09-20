@@ -101,7 +101,7 @@
 				<div>
 					<h3 class="text-white">date</h3>
 					<p class="text-white">Thursday, November 3rd, 2016<br /> 6:00 &ndash; 9:30 PM</p>
-					<button class="btn btn-has-icon">add calendar event</button>
+					<!--<button class="btn btn-has-icon">add calendar event</button>-->
 				</div>
 				<div>
 					<h3 class="text-white">venue</h3>
@@ -138,14 +138,12 @@
 				<div class="section speaker-bio">
 					<h3 class="speaker-name">Justin Obney <br><span class="speaker-name-aux">Software Developer</span></h3>
 					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
-						</a>
-						<a href="tw">
+						
+						<a href="https://twitter.com/justinobney" target="_blank">
 							<?php include('partials/tw.html'); ?>
 						</a>
-						<a href="ig">
-							<?php include('partials/ig.html'); ?>
+						<a href="https://www.linkedin.com/in/justinobney" target="_blank">
+							<?php include('partials/li.html'); ?>
 						</a>
 					</div>
 					<h4>Free Samples to Front-end</h4>
@@ -161,14 +159,9 @@
 					<h3 class="speaker-name">Jonathan Hooper <br>
 					  <span class="speaker-name-aux">Mobile Developer</span></h3>
 					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
-						</a>
-						<a href="tw">
-							<?php include('partials/tw.html'); ?>
-						</a>
-						<a href="ig">
-							<?php include('partials/ig.html'); ?>
+						
+						<a href="https://www.linkedin.com/in/jonathan-hooper-a8aa9078" target="_blank">
+							<?php include('partials/li.html'); ?>
 						</a>
 					</div>
 				<h4>Welcome to Swift</h4>
@@ -183,15 +176,20 @@
 				<div class="section speaker-bio">
 					<h3 class="speaker-name">Quinton Jason <br><span class="speaker-name-aux">Interactive Director</span></h3>
 					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
-						</a>
-						<a href="tw">
+						<a href="https://www.facebook.com/quinton.jason" target="_blank" title="See Quinton Jason on Facebook">
+								<?php include('partials/fb.html'); ?>
+							</a>
+						<a href="https://twitter.com/quintonjasonjr" target="_blank">
 							<?php include('partials/tw.html'); ?>
 						</a>
-						<a href="ig">
+						<a href="https://www.linkedin.com/in/quintonjason" target="_blank">
+							<?php include('partials/li.html'); ?>
+						</a>
+                        <a href="https://www.instagram.com/quintonjasonjr/
+" target="_blank">
 							<?php include('partials/ig.html'); ?>
 						</a>
+                        
 					</div>
 					<h4>Motion and the Web</h4>
 					<p class="speaker-summary">Motion is all around us. It draws our attention even when we try to avoid it. Using motion on the web is a perfect way to keep your visitors engaged in your message. Let’s harness the power of motion on the web, whether to improve decision making, enhance usability, or make your sites stand out from the crowd.</p>
@@ -233,17 +231,17 @@
 			</section>
 			<section class="section">
 				<h3>ask the experts <br><span class="speaker-name-aux">Interactive Design</span></h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris turpis magna, fringilla eget congue a, vulputate vel felis. Fusce hendrerit urna in lectus tristique nec commodo est luctus. Nullam malesuada lobortis diam ut placerat. Vestibulum cursus ultrices eros sed euismod. Suspendisse potenti. Donec vehicula venenatis rhoncus. Etiam pretium pretium aliquet. Aliquam erat volutpat.</p>
+				<p>Our panel of designers will cover a variety of topics including design trends, user experience, and what makes interactive design different from traditional design.</p>
 				<div class="speaker-panel">
 					<h4>Christine Maggi</h4>
 					<p>UX/UI Designer</p>
 					<div class="speaker-socials">
 						
-						<a href="tw" href="https://twitter.com/christinemaggi" target="_blank">
+						<a href="https://twitter.com/christinemaggi" target="_blank">
 							<?php include('partials/tw.html'); ?>
 						</a>
-						<a href="ig">
-							<?php include('partials/ig.html'); ?>
+						<a href="https://www.linkedin.com/in/christinemaggi" target="_blank">
+							<?php include('partials/li.html'); ?>
 						</a>
 					</div>
 				</div>
@@ -251,16 +249,11 @@
 					<h4>Brian Rivet</h4>
 					<p>Web Design Instructor</p>
 					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
+						<a href="https://www.linkedin.com/in/brianrivet" target="_blank">
+							<?php include('partials/li.html'); ?>
 						</a>
-						<a href="tw">
-							<?php include('partials/tw.html'); ?>
-						</a>
-						<a href="ig">
-							<?php include('partials/ig.html'); ?>
-						</a>
-					</div>
+						
+				  </div>
 				</div>
 				<div class="speaker-panel">
 					<h4>Lynsey Gwin</h4>
@@ -281,25 +274,20 @@
 				</div>
 				<div class="speaker-panel">
 					<h4>Mollie Williams</h4>
-					<p>expertise area</p>
+					<p>Web Developer</p>
 					<div class="speaker-socials">
-						<a href="fb">
-							<?php include('partials/fb.html'); ?>
+						<a href="https://www.linkedin.com/in/wolliemilliams" target="_blank">
+							<?php include('partials/li.html'); ?>
 						</a>
-						<a href="tw">
-							<?php include('partials/tw.html'); ?>
-						</a>
-						<a href="ig">
-							<?php include('partials/ig.html'); ?>
-						</a>
-					</div>
+						
+				  </div>
 				</div>
 			</section>
 		</div>
 		<div class="col col-50">
 			<section class="speaker-panel-photos">
 				<img class="panel-photo" src="assets/img/headshots/christine-maggi.jpg" alt="">
-				<img class="panel-photo" src="assets/img/headshots/panel-2.png" alt=""><img class="panel-photo" src="assets/img/headshots/lynsey-gwin.jpg" alt=""><img class="panel-photo" src="assets/img/headshots/mollie-williams.jpg" alt="">
+				<img class="panel-photo" src="assets/img/headshots/brian-rivet.jpg" alt=""><img class="panel-photo" src="assets/img/headshots/lynsey-gwin.jpg" alt=""><img class="panel-photo" src="assets/img/headshots/mollie-williams.jpg" alt="">
 			</section>
 		</div>
 		<!-- end partial -->
@@ -315,11 +303,11 @@
 				<h2>venue</h2>
                 <p>Creative Bloc <br /> 804 Main St.<br />Baton Rouge, LA 70802</p>
 					<p><a class="btn btn-has-icon" href="https://www.google.com/maps?ll=30.451467,-91.181695&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=Creative+Bloc+804+Main+St+Baton+Rouge,+LA+70802@30.4514669,-91.18169549999999" target="_blank">Get Directions</a></p>
-                    <p><a class="btn btn-has-icon" href="#venue">Parking Information</a></p>
+                    <p><a class="btn btn-has-icon" href="http://activateconf.com/assets/pdf/Activate-Parking.pdf" target="_blank">Venue &amp; Parking Information</a></p>
 			</section>
 			<section class="section no-pad">
 				<div class='embed-container'>
-					<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.457866162031!2d-91.18388954926624!3d30.45146688164646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0dd10e52027%3A0x7eb56487c2972f32!2sCreative+Bloc!5e0!3m2!1sen!2sus!4v1467584173057' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
+					<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.457866162031!2d-91.18388954926624!3d30.45146688164646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0dd10e52027%3A0x7eb56487c2972f32!2sCreative+Bloc!5e0!3m2!1sen!2sus!4v1467584173057' width='600' height='450' frameborder='0' style='border:0' scrollwheel="false" allowfullscreen></iframe>
 				</div>
 			</section>
 		</article>
