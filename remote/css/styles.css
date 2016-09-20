@@ -454,7 +454,8 @@ img.nav-img {
   width: 48px;
   height: 48px; }
 img.sponsor-logo {
-  max-width: 170px; }
+  max-width: 170px;
+  width: 100%; }
 img.speaker-panel-photo {
   width: 100%; }
 
@@ -483,6 +484,9 @@ img.speaker-panel-photo {
   .article-outer {
     padding: 100px 0;
     margin-top: 175px; }
+  @media screen and (max-width: 599px) {
+    .article {
+      padding-top: 70px; } }
 
 .no-pad {
   padding: 0; }
@@ -502,13 +506,22 @@ img.speaker-panel-photo {
   flex-direction: row;
   justify-content: space-around;
   align-items: center; }
+  @media screen and (max-width: 769px) {
+    .rocket {
+      flex-direction: column; } }
   .rocket h1 {
     font-size: 140px;
     margin-bottom: 20px; }
+    @media screen and (max-width: 599px) {
+      .rocket h1 {
+        font-size: 80px; } }
   .rocket h2 {
     color: #efc913;
     font-size: 25px;
     margin: 0 0 40px; }
+    @media screen and (max-width: 599px) {
+      .rocket h2 {
+        font-size: 20px; } }
   .rocket h3 {
     color: #478cca;
     text-transform: uppercase;
@@ -524,6 +537,9 @@ img.speaker-panel-photo {
 #rocket-svg {
   width: 330px;
   transform: rotate(-8deg); }
+  @media screen and (max-width: 599px) {
+    #rocket-svg {
+      width: 150px; } }
 
 .about {
   padding-top: 108px;
@@ -714,6 +730,9 @@ input {
     width: 50%;
     background-color: #ffffff;
     box-sizing: border-box; }
+    @media screen and (max-width: 599px) {
+      .sponsors .col {
+        width: 100%; } }
 
 .sponsor-level {
   text-align: center;
@@ -823,7 +842,7 @@ input {
     order: 0; }
     .nav-items.menu li {
       display: block;
-      width: 16.667%; }
+      width: inherit; }
       .nav-items.menu li a {
         background-color: #073c5e;
         padding: 10px 20px; }

@@ -58,7 +58,7 @@
 						<img class="nav-img" src="assets/img/rocket.svg" alt=""></a>
 				</li>
 				<li><a data-scroll href="#about-activate">about</a></li>
-				<li><a data-scroll href="#speakers">speakers &amp; panels</a></li>
+				<li><a data-scroll href="#speakers">speakers</a></li>
 				<li><a data-scroll href="#venue">venue</a></li>
 				<li><a data-scroll href="#sponsors">sponsors</a></li>
 				<li><a data-scroll href="#organizers">organizers</a></li>
