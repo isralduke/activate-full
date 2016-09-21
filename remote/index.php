@@ -9,13 +9,13 @@
 	<!-- Disable tap highlight on IE -->
 	<meta name="msapplication-tap-highlight" content="no">
 	<?php include('partials/faves.html'); ?>
-	<link rel="canonical" href="http://www.activateconf.com/">
+	<link rel="canonical" href="http://activateconf.com/">
 	<!-- fb OG markup -->
-	<meta property="og:url" content="http://www.activateconf.com/" />
+	<meta property="og:url" content="http://activateconf.com/" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Activate Conference 2016 - A Student Conference for All Thing Interactive" />
 	<meta property="og:description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference." />
-	<meta property="og:image" content="http://www.activateconf.com/assets/img/og-image.png" />
+	<meta property="og:image" content="http://activateconf.com/assets/img/og-image.png" />
 
 	<!-- twitter card markup -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -23,7 +23,7 @@
 	<meta name="twitter:creator" content="@activ8conf">
 	<meta name="twitter:title" content="Activate Conference 2016 - A Student Conference for All Thing Interactive">
 	<meta name="twitter:description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference.">
-	<meta name="twitter:image" content="http://www.activateconf.com/">
+	<meta name="twitter:image" content="http://activateconf.com/">
 	<meta name="author" content="Lynsey Gwin Jordan, Quinton Jason Jr, and Isral C. Duke" />
 	<link type="text/plain" rel="author" href="/humans.txt" />
 
