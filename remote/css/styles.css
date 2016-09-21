@@ -698,7 +698,7 @@ input {
   overflow: hidden; }
 
 .embed-container iframe, .embed-container object,
-.embed-container embed {
+.embed-container embed, .embed-container #map {
   position: absolute;
   top: 0;
   left: 0;
@@ -909,3 +909,5 @@ input {
     margin-right: auto;
     margin-left: auto;
     width: 1280px; } }
+
+/*# sourceMappingURL=styles.css.map */

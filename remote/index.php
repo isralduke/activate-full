@@ -307,7 +307,9 @@
 			</section>
 			<section class="section no-pad">
 				<div class='embed-container'>
-					<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.457866162031!2d-91.18388954926624!3d30.45146688164646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0dd10e52027%3A0x7eb56487c2972f32!2sCreative+Bloc!5e0!3m2!1sen!2sus!4v1467584173057' width='600' height='450' frameborder='0' style='border:0' scrollwheel="false" allowfullscreen></iframe>
+					<!-- <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.457866162031!2d-91.18388954926624!3d30.45146688164646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8626a0dd10e52027%3A0x7eb56487c2972f32!2sCreative+Bloc!5e0!3m2!1sen!2sus!4v1467584173057' width='600' height='450' frameborder='0' style='border:0' scrollwheel="false" allowfullscreen></iframe> -->
+
+					<div id="map"></div>
 				</div>
 			</section>
 		</article>
@@ -401,6 +403,8 @@
 	<script src="js/vendor/min/svg-inject.min.js"></script>
 	<script src="js/vendor/min/smooth-scroll.min.js"></script>
 	<script src="js/activations.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuJZ6xo0oqSSCDTQ3TGpudhlgDlx06vzI&libraries=places&callback=initMap"
+    async defer></script>
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
