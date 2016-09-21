@@ -9,13 +9,13 @@
 	<!-- Disable tap highlight on IE -->
 	<meta name="msapplication-tap-highlight" content="no">
 	<?php include('partials/faves.html'); ?>
-	<link rel="canonical" href="http://www.activateconf.com/">
+	<link rel="canonical" href="http://activateconf.com/">
 	<!-- fb OG markup -->
-	<meta property="og:url" content="http://www.activateconf.com/" />
+	<meta property="og:url" content="http://activateconf.com/" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Activate Conference 2016 - A Student Conference for All Thing Interactive" />
 	<meta property="og:description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference." />
-	<meta property="og:image" content="http://www.activateconf.com/assets/img/og-image.png" />
+	<meta property="og:image" content="http://activateconf.com/assets/img/og-image.png" />
 
 	<!-- twitter card markup -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -23,7 +23,7 @@
 	<meta name="twitter:creator" content="@activ8conf">
 	<meta name="twitter:title" content="Activate Conference 2016 - A Student Conference for All Thing Interactive">
 	<meta name="twitter:description" content="Calling all students! Ignite your future beyond the classroom. Join local professionals from the growing interactive community to learn more about the opportunities of the future at Activate Conference.">
-	<meta name="twitter:image" content="http://www.activateconf.com/">
+	<meta name="twitter:image" content="http://activateconf.com/">
 	<meta name="author" content="Lynsey Gwin Jordan, Quinton Jason Jr, and Isral C. Duke" />
 	<link type="text/plain" rel="author" href="/humans.txt" />
 
@@ -214,7 +214,7 @@
 						</a>
 					</div>-->
 					<h4>My Tech Journey</h4>
-					<p class="speaker-summary">Description coming soon.</p>
+					<p class="speaker-summary">This talk will highlight Carla's journey through the tech field starting with research, development, &amp; instruction in the field of Robotics; becoming a test analyst, project management analyst, and test team lead with IBM; and now, adjusting in her role as a senior business data analyst and special projects manager at BXSI, all within three years after entering the workforce. Be prepared to attain the necessary tools to navigate along your career path and the confidence &amp; knowledge to do so successfully.</p>
 				</div>
 			</section>
 		</div>
