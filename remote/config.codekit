@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/assets\/css\/bg-article-rocket.png": {
 		"fileType": 32768,
@@ -299,6 +299,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/creative-bloc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364525,
+		"inputAbbreviatedPath": "\/assets\/img\/creative-bloc.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/creative-bloc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/brian-rivet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281315,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/brian-rivet.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/brian-rivet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/christine-maggi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 404233,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/christine-maggi.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/christine-maggi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/headshots\/isral-duke-activate-conference-organizer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -310,6 +343,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/headshots\/j-hooper.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324273,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/j-hooper.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/j-hooper.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/justin-obney.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147730,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/justin-obney.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/justin-obney.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/lynsey-gwin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139103,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/lynsey-gwin.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/lynsey-gwin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/mollie-williams.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123675,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/mollie-williams.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/mollie-williams.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/panel-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3894,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/panel-1.png",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/panel-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/panel-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4247,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/panel-2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/panel-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/headshots\/quinton-jason-jr-activate-conference-organizer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -317,6 +416,50 @@
 		"initialSize": 65725,
 		"inputAbbreviatedPath": "\/assets\/img\/headshots\/quinton-jason-jr-activate-conference-organizer.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/headshots\/quinton-jason-jr-activate-conference-organizer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/speaker-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2618,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/speaker-1.png",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/speaker-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/headshots\/speaker-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4262,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/speaker-2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/speaker-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/logos\/futures-fund-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9885,
+		"inputAbbreviatedPath": "\/assets\/img\/logos\/futures-fund-logo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logos\/futures-fund-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/og-image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 886379,
+		"inputAbbreviatedPath": "\/assets\/img\/og-image.png",
+		"outputAbbreviatedPath": "\/assets\/img\/og-image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -516,6 +659,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/li.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/li.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/navbar.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -600,6 +752,15 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
+	"\/scss\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/scss\/styles.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -610,7 +771,7 @@
 		"inputAbbreviatedPath": "\/scss\/styles.scss",
 		"outputAbbreviatedPath": "\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -619,7 +780,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "isral",
+"lastSavedByUser": "Lynsey Gwin",
 "manualImportLinks": {
 	},
 "projectAttributes": {

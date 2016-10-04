@@ -2,6 +2,8 @@
 @import 'variables';
 @import 'mixins';
 
+
+
 body {
 	background-color: $indigo;
 	font-family: 'Panton W01 Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -716,7 +718,6 @@ input {
 	.speaker-panel-photos {
 		img.panel-photo {
 			width: 50%;
-			filter: grayscale(100%);
 		}
 	}
 }
