@@ -39,18 +39,15 @@
 	<div class="col col-50">	
 		<section class="speaker-bio-wrap bg-red">
 			<div class="speaker-photo">
-				<img class="speaker-panel-photo" src="assets/img/headshots/lynsey-gwin.jpg" alt="Lynsey Gwin">
+				<img class="speaker-panel-photo" src="assets/img/headshots/Natasha-Clark.jpg" alt="Lynsey Gwin">
 			</div>
 			<div class="section speaker-bio">
-				<h3 class="speaker-name">Lynsey Gwin <br><span class="speaker-name-aux">Interactive Designer &amp; Developer</span></h3>
+				<h3 class="speaker-name">Natasha Clark <br><span class="speaker-name-aux">Interactive Designer</span></h3>
 				<div class="speaker-socials">
-					<a href="https://www.instagram.com/lynseydesign/" target="_blank">
-						<?php include('partials/ig.html'); ?>
-					</a>
-					<a href="https://twitter.com/lynseydesign" target="_blank">
+					<a href="https://twitter.com/natashawclark" target="_blank">
 						<?php include('partials/tw.html'); ?>
 					</a>
-                    <a href="https://www.linkedin.com/in/lynseygwin" target="_blank">
+                    <a href="https://www.linkedin.com/in/natashawclark" target="_blank">
 						<?php include('partials/li.html'); ?>
 					</a>
 				</div>
@@ -63,6 +60,9 @@
 			<div class="section speaker-bio">
 				<h3 class="speaker-name">Mollie Williams <br><span class="speaker-name-aux">Web Developer</span></h3>
 				<div class="speaker-socials">
+					<a href="https://twitter.com/molliecwilliams" target="_blank">
+						<?php include('partials/tw.html'); ?>
+					</a>
 					<a href="https://www.linkedin.com/in/wolliemilliams" target="_blank">
 						<?php include('partials/li.html'); ?>
 					</a>

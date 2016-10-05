@@ -387,6 +387,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/headshots\/Natasha-Clark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99193,
+		"inputAbbreviatedPath": "\/assets\/img\/headshots\/Natasha-Clark.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/headshots\/Natasha-Clark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/headshots\/panel-1.png": {
 		"fileType": 32768,
 		"ignore": 0,

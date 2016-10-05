@@ -72,13 +72,10 @@
 	"buffers":
 	[
 		{
-			"contents": "@import 'normalize';\n@import 'variables';\n@import 'mixins';\n\nbody {\n	background-color: $indigo;\n	font-family: 'Panton W01 Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;\n	line-height: 1.75;\n}\nh {\n	&1, &2, &3, &4, &5, &6 {\n		color: $white;\n		margin: 0 0 $unit 0;\n		line-height: 1;\n		font-weight: 700;\n	}\n	&1 {\n\n	}\n	&2 {\n		font-size: 56px;\n	}\n	&3 {\n		font-size: 28px;\n		margin-bottom: $unit*.5;\n		text-transform: capitalize;\n	}\n	&4 {\n		font-size: 20px;\n		text-transform: capitalize;\n	}\n}\n// --------------------------------\n// text rules\n.text-capitalize {\n	text-transform: capitalize;\n}\n.text-uppercase {\n	text-transform: uppercase;\n}\n.text-center {\n	text-align: center;\n}\n.text-blue {\n	color: $indigo;\n}\n.text-red {\n	color: $red;\n}\n.text-white {\n	color: $white;\n}\n// --------------------------------\n// bg colors\n.bg-white {\n	background-color: $white;\n}\n.bg-powder {\n	background-color: $powder;\n}\n.bg-light-powder {\n	background-color: #ccdbe5;\n}\n.bg-red {\n	background-color: $red;\n}\n.bg-dark-red {\n	background-color: darken($red, 25%);\n}\n.bg-orange {\n	background-color: $orange;\n}\n.bg-dark-orange {\n	background-color: darken($orange, 25%);\n}\n.bg-yellow {\n	background-color: $yellow;\n}\n.bg-blue {\n	background-color: $blue;\n}\n.bg-turquoise {\n	background-color: $turquoise;\n}\n.bg-indigo {\n	background-color: $indigo;\n}\n// --------------------------------\n// element rules w modifiers\na {\n	text-decoration: none;\n	border: none;\n}\np {\n	&.lead-in {\n		color: $blue;\n	}\n}\nimg {\n	&.logo-rocket {\n		width: $unit*10;\n		margin: $unit*4 auto 0;\n		transform: translateY($unit*3);\n	}\n	&.logo {\n\n	}\n	&.nav-img {\n		width: 48px; height: 48px;\n	}\n	&.sponsor-logo {\n		max-width: 100px;\n	}\n	&.speaker-panel-photo {\n		width: 100%;\n	}\n}\n.social-icon {\n	width: 44px; height: 44px;\n	fill: $white;\n	transition: fill $duration $easing;\n	&:hover {\n		fill: $yellow;\n	}\n}\n.btn {\n	background-color: $turquoise; color: $white;\n	border: none;\n	height: 48px;\n	@extend .text-capitalize;\n	padding: $unit*.5 $unit;\n}\n.icon {\n	&-social {\n\n	}\n}\n// --------------------------------\n// basic section styles\n.section {\n	padding: $unit;\n}\n// --------------------------------\n// individual section styles\n.rocket {\n	background-color: $indigo;\n	background-image: url('../assets/css/bg-article-rocket.png');\n	background-position: center bottom;\n	background-repeat: no-repeat;\n	background-size: contain;\n	overflow: hidden;\n	@extend .text-center;\n	// margin-bottom: 200px;\n}\n// --------------------------------\n// about rules\n.about {\n	// padding-bottom: 200px;\n	background-color: $indigo;\n	.col-62 {\n		display: flex;\n		flex-direction: column;\n		justify-content: space-between;\n		background-color: $white;\n	}\n}\n.activate-date {\n	div {\n		&:not(:last-of-type) {\n			margin-bottom: $unit*2;\n		}\n	}\n	.social-icon {\n		background-color: darken($red, 10%);\n	}\n}\n// --------------------------------\n// form elements\ninput {\n	border-radius: 0;\n	border: none;\n	&[type=email] {\n		width: 100%; height: $unit*2;\n	}\n}\n// --------------------------------\n// speaker rules\n.speakers {\n	background-color: $indigo;\n	padding-top: $unit*5;\n	padding-bottom: $unit*5;\n}\n.speaker-bio-wrap {\n	&.blue {\n		background-color: $blue;\n	}\n	&.turquoise {\n		background-color: $turquoise;\n	}\n	&.red {\n		background-color: $red;\n	}\n	&.powder {\n		background-color: $powder;\n	}\n}\n.speaker-name-aux {\n	color: darken($blue, 10%);\n	font-size: smaller;\n	text-transform: uppercase;\n}\n.speaker-summary {\n	color: $white;\n}\n.speaker-socials {\n	margin-bottom: $unit*.5;\n	.social-icon {\n		background-color: darken($blue, 10%);\n	}\n}\n// --------------------------------\n// panel rules, organizer rules\n.panel, .organizers {\n	// padding-bottom: $unit*5;\n	.col {\n		&:nth-child(1) {\n			background-color: $indigo;\n			section {\n				&:nth-child(2) {\n					background-color: $blue;\n				}\n			}\n		}\n	}\n}\n\n.speaker-panel-photos {\n	display: flex;\n	flex-direction: row;\n	flex-wrap: wrap;\n	justify-content: flex-start;\n	align-items: flex-start;\n	align-content: flex-start;\n	img.panel-photo {\n		width: 50%;\n	}\n}\n.speaker-panel {\n	&:not(:last-of-type) {\n		margin-bottom: $unit*2;\n	}\n	h4 {\n		margin-bottom: 0;\n	}\n	p {\n		margin: $unit*.5 0;\n	}\n}\n// --------------------------------\n// nav bar rules\n.nav, .nav-items {\n}\n.nav {\n	background-color: $white;\n	padding: $unit 0; \n\n	display: flex;\n	flex-direction: column;\n	justify-content: space-between;\n}\n.nav-items {\n	padding: 0; margin: 0;\n	list-style: none;\n	li {\n		a {\n			display: flex;\n			flex-direction: column;\n			justify-content: center;\n			align-items: center;\n			padding: $unit*.5 $unit;\n			height: 48px;\n			color: $white;\n			text-transform: capitalize;\n			line-height: 1.25;\n		}\n	}\n	&.menu {\n		order: 1;	\n		display: flex;\n		flex-flow: row wrap;\n		li {\n			width: 33.33%;\n			a {\n				background-color: $indigo;	\n			}\n			\n		}\n	}\n	&.register {\n		order: 0;\n		li {\n			a {\n				background-color: $turquoise; color: $white;\n			}\n		}\n	}\n}\n\n// --------------------------------\n// venue rules\n.bg-powder {\n	background-color: lighten($powder, 35%);\n}\n.embed-container { \n	position: relative; \n	padding-bottom: 56.25%; \n	max-width: 100%; height: 0; \n	overflow: hidden;\n}\n.embed-container iframe, .embed-container object, \n.embed-container embed { \n	position: absolute; top: 0; left: 0; \n	width: 100%; height: 100%; \n}\n.venue {\n	section {\n		&:nth-child(1) {\n			background-color: $white;\n			align-self: flex-start;\n		}\n		h2 {\n			color: $red;\n		}\n	}\n}\n\n// --------------------------------\n// sponsors rules\n.bg-grey {\n\n}\n.sponsors {\n	display: flex;\n	flex-flow: row wrap;\n	justify-content: space-between;\n	& > .section {\n		width: 100%;\n		background-color: $indigo;\n	}\n	.col {\n		width: 50%;\n		background-color: $white;\n		box-sizing: border-box;\n	}\n}\n.sponsor-level {\n	text-align: center;\n	padding: $unit*2;\n	&:not(:last-of-type) {\n		//margin-bottom: $unit;\n	}\n}\n\n// --------------------------------\n// organizer rules\n.organizers {\n	.col {\n		&:nth-child(1) {\n			background-color: $indigo;\n			section {\n				&:nth-child(2) {\n					background-color: $orange;\n				}\n			}\n		}\n	}\n}\n\n\n\n\n\n// --------------------------------\n// media queries\n\n@media screen and ( min-width: 600px ) {\n	\n	img {\n		&.logo-rocket {\n			width: $unit*10;\n			margin: $unit*5 auto 0;\n		}\n	}\n	.about {\n		display: flex;\n		flex-flow: row;\n		justify-content: space-between;\n		.col-38 {\n			width: 38%;\n		}\n		.col-50 {\n			width: 50%;\n		}\n		.col-62 {\n			width: 62%;\n		}\n	}\n	.speakers {\n		display: flex;\n		.col-38 {\n			width: 38%;\n		}\n		.col-50 {\n			width: 50%;\n		}\n		.col-62 {\n			width: 62%;\n		}\n	}\n	.nav-items {\n		&.menu {\n			flex-flow: row wrap;\n			li {\n				width: calc(20% - 12.8px );\n				&.menu-rocket {\n					width: 64px;\n				}\n				a {\n					background-color: $indigo;	\n				}\n			}\n		}\n	}\n	.venue {\n		display: flex;\n		flex-direction: row;\n		justify-content: space-between;\n		section {\n			&:nth-child(1) {\n				width: 38%;\n			}\n			&:nth-child(2) {\n				width: 62%;\n			}\n			h2 {\n				color: $red;\n			}\n		}\n	}\n	.panel {\n		display: flex;\n		.col-38 {\n			width: 38%;\n		}\n		.col-50 {\n			width: 50%;\n		}\n		.col-62 {\n			width: 62%;\n		}\n	}\n	.sponsors {\n		.col {\n			width: 25%;\n			background-color: purple;\n		}\n	}\n	.organizers {\n		display: flex;\n		.col-38 {\n			width: 38%;\n		}\n		.col-50 {\n			width: 50%;\n		}\n		.col-62 {\n			width: 62%;\n		}\n	}\n}\n@media screen and ( min-width: 768px ) {\n	.rocket {\n		background-size: cover;\n	}\n	img {\n		&.logo-rocket {\n			width: $unit*15;\n			margin: $unit*5 auto 0;\n			transform: translateY($unit*4);\n		}\n	}\n	.section {\n		padding: $unit*2;\n	}\n	.about {\n\n		.col-38 {\n			width: 38%;\n		}\n		.col-62 {\n			width: 68%;\n		}\n	}\n	.form-inline {\n		display: flex;\n		justify-content: space-between;\n		.form-control {\n			flex: 1;\n			height: 48px;\n		}\n		.btn {\n			flex-basis: 120px;\n		}\n	}\n	.nav {\n		flex-direction: row;\n		justify-content: space-between;\n	}\n	.nav-items {\n		&.menu {\n			order: 0;	\n			display: flex;\n			flex-flow: row wrap;\n			li {\n				width: unset;\n				a {\n					background-color: $indigo;	\n				}\n				\n			}\n			li.menu-rocket {\n				width: 64px;\n			}\n		}\n		&.register {\n			order: 1;\n			li {\n				a {\n					background-color: $turquoise; color: $white;\n				}\n			}\n		}\n	}\n}\n@media screen and ( min-width: 1024px ) {\n\n	img {\n		&.logo-rocket {\n			margin: $unit*4 auto 0;\n		}\n	}\n	h {\n		&2 {\n			font-size: 72px;\n		}\n	}\n	.speakers {\n		display: flex;\n		flex-direction: row;\n		justify-content: flex-start;\n		align-items: flex-start;\n		align-content: flex-start;\n	}\n	.speaker-panel {\n		display: inline-block;\n		box-sizing: border-box;\n		width: 49%;\n	}\n	.panel, .organizers {\n		display: flex;\n		flex-direction: row;\n		justify-content: flex-start;\n		align-items: flex-start;\n	}\n	\n}\n@media screen and ( min-width: 1280px ) {\n	.speakers {\n		flex-direction: row;\n		justify-content: space-between;\n	}\n	.speaker-bio-wrap {\n		display: flex;\n		flex-direction: row;\n	}\n	.speaker-photo {\n		width: 38%;\n	}\n	.speaker-bio {\n		width: 62%;\n	}\n	.sponsors {\n		.col {\n			&:nth-child(2) {\n				transform: translateY( $unit );\n				z-index: 100;\n			}\n			&:nth-child(4) {\n				transform: translateY( $unit );\n				z-index: 100;\n			}\n		}\n	}\n	.wrap {\n		position: relative;\n		margin-right: auto;\n		margin-left: auto;\n		width: 1280px;\n	}\n	\n}",
 			"file": "scss/styles.scss",
-			"file_size": 9098,
-			"file_write_time": 131125698360000000,
 			"settings":
 			{
-				"buffer_size": 9099,
+				"buffer_size": 11466,
 				"line_ending": "Unix"
 			}
 		},
@@ -86,7 +83,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 17463,
+				"buffer_size": 1502,
 				"line_ending": "Unix"
 			}
 		},
@@ -94,7 +91,7 @@
 			"file": "scss/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 365,
+				"buffer_size": 362,
 				"line_ending": "Unix"
 			}
 		}
@@ -219,8 +216,8 @@
 			"<button class=\"\">",
 			"<button class=\"\"",
 			"<section><img src=\"\"",
-			"<div>\n				<h4>",
-			"<div>\n				<h4>first last</h4>",
+			"<div>\n\t\t\t\t<h4>",
+			"<div>\n\t\t\t\t<h4>first last</h4>",
 			"’",
 			"“",
 			", "
@@ -241,7 +238,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -250,7 +247,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9099,
+						"buffer_size": 11466,
 						"regions":
 						{
 						},
@@ -271,7 +268,7 @@
 						"translation.y": 8010.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -280,15 +277,15 @@
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 17463,
+						"buffer_size": 1502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1572,
-								1675
+								0,
+								0
 							]
 						],
 						"settings":
@@ -298,10 +295,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 262.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -310,15 +307,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 365,
+						"buffer_size": 362,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97,
-								97
+								0,
+								0
 							]
 						],
 						"settings":
