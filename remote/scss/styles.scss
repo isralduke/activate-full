@@ -288,6 +288,17 @@ input {
 }
 // --------------------------------
 // panel rules, organizer rules
+#panel {
+	section.section {
+		.speaker-name-aux {
+			color: $orange;
+		}
+		p {
+			color: $turquoise;
+		}
+	}
+}
+
 .organizers {
 	// padding-bottom: $unit*5;
 	.col {
