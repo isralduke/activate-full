@@ -86,3 +86,32 @@ $(document).ready(function(){
 		$('#navItems li').slideToggle(250);
 	});
 });
+
+
+//GOOGLE MAPS
+var lat = 30.4514669,
+		long = -91.18169549999999;
+		
+// google place info = Creative Bloc
+// https://maps.googleapis.com/maps/api/place/textsearch/xml?query=Creative+Bloc&key=AIzaSyCuJZ6xo0oqSSCDTQ3TGpudhlgDlx06vzI
+
+function initMap() {
+	map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 16,
+    center: {lat: lat, lng: long},
+    scrollwheel: false
+  });
+
+	var image = "http://local.activate-full.com/assets/img/small-rocket.png"
+  var marker = new google.maps.Marker({
+    map: map,
+    draggable: false,
+    animation: google.maps.Animation.DROP,
+    position: {lat: lat, lng: long},
+    icon: image
+  });
+}
+
+
+
+
