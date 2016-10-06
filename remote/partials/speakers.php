@@ -4,7 +4,7 @@
 		<section class="section">
 			<h2>speakers</h2>
 		</section>
-		<section class="speaker-bio-wrap blue">
+		<section class="speaker-bio-wrap orange">
 			<div class="speaker-photo">
 				<img class="speaker-panel-photo" src="assets/img/headshots/justin-obney.jpg" alt="Justin Obney" />
 			</div>

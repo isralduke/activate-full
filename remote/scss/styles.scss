@@ -259,8 +259,8 @@ input {
 	background-color: $indigo;
 }
 .speaker-bio-wrap {
-	&.blue {
-		background-color: $blue;
+	&.orange {
+		background-color: $orange;
 	}
 	&.turquoise {
 		background-color: $turquoise;
@@ -288,7 +288,7 @@ input {
 }
 // --------------------------------
 // panel rules, organizer rules
-.panel, .organizers {
+.organizers {
 	// padding-bottom: $unit*5;
 	.col {
 		&:nth-child(1) {
@@ -721,6 +721,14 @@ input {
 		}
 	}
 }
+@media screen and ( max-width: 1279px ) {
+	#panel {
+		.speaker-photo {
+			margin-bottom: -9px;
+		}
+	}
+
+}
 @media screen and ( min-width: 1280px ) {
 	.speakers {
 		flex-direction: row;
@@ -729,6 +737,7 @@ input {
 	.speaker-bio-wrap {
 		display: flex;
 		flex-direction: row;
+		align-items: flex-start;
 	}
 	.speaker-photo {
 		width: 38%;
