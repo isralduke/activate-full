@@ -300,17 +300,7 @@ input {
 }
 
 .organizers {
-	// padding-bottom: $unit*5;
-	.col {
-		&:nth-child(1) {
-			background-color: $indigo;
-			section {
-				&:nth-child(2) {
-					background-color: $blue;
-				}
-			}
-		}
-	}
+	
 }
 .speaker-panel-photos {
 	display: flex;
@@ -512,21 +502,38 @@ input {
 // --------------------------------
 // organizer rules
 .organizers {
-	.col {
-		&:nth-child(1) {
-			background-color: $indigo;
-			section {
-				&:nth-child(2) {
-					background-color: $orange;
-				}
-			}
+	
+}
+.organizer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	&-info, &-photo {
+		width: 50%;
+	}
+	&-info {
+		padding: $unit;
+		h4 {
+			margin-bottom: 0;
+			text-transform: none;
+		}
+		p {
+			margin: 0;
+			margin: $unit*.5 0;
+		}
+	}
+	&-photo {
+		background-size: cover;
+		background-position: center top;
+		background-repeat: no-repeat;
+		img {
+			width: 100%;
+			opacity: 0;
 		}
 	}
 }
-
-
-
-
 
 // --------------------------------
 // media queries
@@ -536,7 +543,7 @@ input {
 		padding-top: 225px;		
 	}		
 }
-@media screen and ( min-width: 600px ) {
+@media screen and ( min-width: 599px ) {
 	
 	img {
 		&.logo-rocket {
@@ -610,15 +617,11 @@ input {
 	}
 	.organizers {
 		display: flex;
-		.col-38 {
-			width: 38%;
-		}
-		.col-50 {
-			width: 50%;
-		}
-		.col-62 {
-			width: 62%;
-		}
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.organizer {
+		width: 50%;
 	}
 }
 @media screen and ( min-width: 768px ) {

@@ -27,7 +27,7 @@
 	<?php include('partials/sponsors.php'); ?>
 
 	<!-- organizers -->
-	<?php include('partials/organizers.php'); ?>
+	<?php include('partials/organizers-2.php'); ?>
     
     <!-- register -->
     <?php include('partials/register.php'); ?>
