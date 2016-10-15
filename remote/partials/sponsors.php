@@ -28,14 +28,14 @@
 	</section>
 	
 	<section class="sponsor-level sponsor-level-name bg-turquoise">
-		<a href="https://stunning.co/" title="Stunning" target="_blank"><img class="inject-me sponsor-logo" src="assets/img/logos/stunning-logo.svg" alt="Stunning is an Activate Sponsor"></a>
+		<a href="http://stunning.co/" title="Stunning" target="_blank"><img class="inject-me sponsor-logo" src="assets/img/logos/stunning-logo.svg" alt="Stunning is an Activate Sponsor"></a>
 	</section>
 	
 </div>
 
 <div class="col">
 	<section class="sponsor-level sponsor-level-name bg-blue">
-        <a href="https://envoc.com/" title="Envoc" target="_blank">
+        <a href="http://envoc.com/" title="Envoc" target="_blank">
             <img class="inject-me sponsor-logo" src="assets/img/logos/envoc.svg" alt="Envoc is an Activate Sponsor">
         </a>
 	</section>
