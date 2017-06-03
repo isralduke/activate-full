@@ -60,9 +60,9 @@
 		<a href="http://www.thefuturesfund.org/" title="New Aperio" target="_blank"><img class="inject-me sponsor-logo" src="assets/img/logos/futures-fund-logo.png" alt="The Futures Fund is an Activate Sponsor"></a>
 	</section>
 	 <section class="sponsor-level sponsor-level-name bg-red">
-	  <h4>Join Us!</h4> 
+	 <!--  <h4>Join Us!</h4> 
 	    <p><a href="http://activateconf.com/assets/pdf/activate-sponsor-sheet.pdf" target="_blank" class="btn">Sponsor Activate</a></p>
-	</section>
+	</section> -->
 	<!--<section class="sponsor-level sponsor-level-name bg-orange">
 		<img class="inject-me sponsor-logo" src="assets/img/logos/google-logo.svg" alt="Sponsor Name Logo">
 	</section>
